@@ -32,7 +32,3 @@ Use the sidebar to navigate:
 - **Chatbot**: Ask questions and get insights.
 - **Performance Entry**: Log your training progress.
 """)
-
-# Add navigation to multi-page functionality (pages are defined in the `pages` directory)
-st.sidebar.title("Navigation")
-st.sidebar.info("Choose a page:")
