@@ -24,7 +24,13 @@ st.markdown("""
 An AI-powered tool to help you plan, track, and optimize your marathon training journey!
 """)
 st.markdown("""
-**IMPORTANT NOTE:** Please do not enter any Personally Identifiable Information (PII). Use an anonymized username when prompted.
+**IMPORTANT NOTE:** Please do not enter ANY sensitive data or Personally Identifiable Information (PII). Use a fully anonymized username when prompted.
+""")
+
+st.markdown("""
+Use the sidebar to navigate:
+- **Chatbot**: Ask questions and get insights.
+- **Performance Entry**: Log your training progress.
 """)
 
 # Add navigation to multi-page functionality (pages are defined in the `pages` directory)
