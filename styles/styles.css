@@ -1,12 +1,102 @@
+/* General body styling with default font */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
+
+/* Specific styles for Streamlit's app container */
+[data-testid="stAppViewContainer"] {
+    /* Background styling applied programmatically in Python */
+    background-color: transparent; /* Ensures no conflicts with background image */
+}
+
+/* Title styling */
 .title {
-    font-size: 36px;
-    color: #4CAF50;
+    font-family: Georgia, serif;
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000; /* Adds shadow for better visibility */
+    text-align: center;
+    margin-top: 20px;
 }
+
+/* Note styling */
 .note {
-    font-size: 18px;
+    font-family: "Courier New", monospace;
+    font-size: 1.2em;
     color: #FF5733;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Sidebar styling - now lighter */
+[data-testid="stSidebar"] {
+    background-color: rgba(255, 255, 255, 0.621); /* Light semi-transparent background */
+    color: #333; /* Dark text for better contrast on light background */
+}
+
+[data-testid="stSidebar"] h2 {
+    color: #333; /* Dark headers for consistency with lighter background */
+    text-align: center;
+}
+
+/* Ensure text in sidebar links is dark */
+[data-testid="stSidebar"] a {
+    color: #333 !important; /* Dark text for sidebar links */
+    text-decoration: none; /* Remove underline for cleaner look */
+}
+
+[data-testid="stSidebar"] a:hover {
+    color: #4CAF50 !important; /* Green hover effect for links */
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50; /* Green button */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Input fields */
+input, textarea {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #4CAF50; /* Highlight with green border on focus */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50; /* Green header background */
+    color: white; /* White header text */
 }
