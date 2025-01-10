@@ -1,18 +1,7 @@
 import streamlit as st
-import logging
-#from scripts.chatbot import get_response  # Import chatbot logic
-#from scripts.data_storage import save_user_data, get_user_data  # Import data management logic
-# Set up page configuration
-st.set_page_config(page_title="Marathon Training App", layout="wide")
 
-# Configure logging (restricted to backend, not displayed to users)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("app.log"),  # Save logs to a file
-    ]
-)
+# Set up page configuration
+st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
 # Load custom CSS for styling
 with open("styles/styles.css") as css_file:

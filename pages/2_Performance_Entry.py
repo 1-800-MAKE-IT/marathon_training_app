@@ -1,6 +1,8 @@
 import streamlit as st
 import logging
 
+st.set_page_config(page_title="Performance Entry", page_icon="📝")
+
 # Load custom CSS for styling
 with open("styles/styles.css") as css_file:
     st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
