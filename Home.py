@@ -78,9 +78,6 @@ if st.button("Update Academic Data"):
         else:
             st.success(f"Successfully fetched {len(papers)} papers.")
             st.info(f"Updated Storage Usage: {updated_size:.2f} MB / {max_size_mb} MB")
-    except ValueError as ve:
-        st.error("Unexpected return values from fetch_arxiv_papers.")
-        logging.error(f"ValueError: {ve}")
     except Exception as e:
         st.error(f"An error occurred: {e}")
         logging.error(f"Exception: {e}")
