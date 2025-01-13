@@ -6,3 +6,4 @@ python-dotenv
 arxiv
 PyPDF2
 sentence-transformers
+base64

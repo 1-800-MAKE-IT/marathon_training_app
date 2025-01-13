@@ -20,14 +20,17 @@ page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
     background: linear-gradient(
-        rgba(255, 255, 255, 0.5), /* Adjust overlay transparency */
+        rgba(255, 255, 255, 0.5), /* Adjust transparency */
         rgba(255, 255, 255, 0.5)
     ),
     url("data:image/jpg;base64,{img}");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll; /* Ensures the image scrolls with content */
+    background-size: cover;           /* Ensures the image covers the entire area */
+    background-repeat: no-repeat;     /* Prevents tiling */
+    background-position: center top;  /* Aligns the image to the top center */
+    background-attachment: scroll;    /* Image scrolls with content */
+    height: 100vh;                    /* Ensures the container fills the full viewport */
+    margin: 0;                        /* Removes any default margin causing gaps */
+    padding: 0;                       /* Removes padding inside the container */
 }}
 </style>
 """

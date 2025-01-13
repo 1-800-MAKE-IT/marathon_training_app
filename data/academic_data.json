@@ -1,0 +1,905 @@
+{
+    "http://arxiv.org/abs/2501.06055v1": {
+        "title": "Multifractal Analysis of Physiological Signals: A Novel Approach to Optimizing Pacing Strategy in a Pilot Study",
+        "authors": [
+            "V\u00e9ronique Billat",
+            "Wejdene Nasr Ben Hadj Amor",
+            "Guillaume Sa\u00ebs",
+            "St\u00e9phane Jaffard",
+            "Florent Palacin"
+        ],
+        "abstract": "Marathons are one of the ultimate challenges of human endeavor. In this\npaper, we apply recently introduced multifractal techniques which yield a new\nclassification parameter in the processing of physiological data captured on\nmarathon runners. The comparison of their values gives a new insight on the way\nthat runners of different level conduct their run, and ultimately, can be used\nin order to give advice on how to improve their performance.",
+        "link": "http://arxiv.org/abs/2501.06055v1",
+        "pdf_link": "http://arxiv.org/pdf/2501.06055v1"
+    },
+    "http://arxiv.org/abs/2412.11649v1": {
+        "title": "Records from the S-Matrix Marathon: Gravitational Physics from Scattering Amplitudes",
+        "authors": [
+            "Miguel Correia",
+            "Holmfridur S. Hannesdottir",
+            "Giulia Isabella",
+            "Anna M. Wolz",
+            "Zihan Zhou",
+            "Mathieu Giroux",
+            "Sebastian Mizera",
+            "Celina Pasiecznik"
+        ],
+        "abstract": "These lecture notes explain how classical gravitational physics emerges from\nscattering amplitudes. We emphasize the role of different kinematic regimes in\nprobing various aspects of bound and unbound problems, as illustrated by the\nHydrogen atom example. Classical predictions of General Relativity, such as the\nShapiro time delay and perihelion precession, emerge from these considerations.\nWe also explain a number of recent approaches to probing black hole physics\nfrom the perspective of amplitudes, including applications of worldline\neffective field theory in astrophysics, predictions of gravitational waveforms,\nand the hierarchical three-body problem.\n  These notes are based on a series of lectures held during the S-Matrix\nMarathon workshop at the Institute for Advanced Study on 11--22 March 2024.",
+        "link": "http://arxiv.org/abs/2412.11649v1",
+        "pdf_link": "http://arxiv.org/pdf/2412.11649v1"
+    },
+    "http://arxiv.org/abs/2411.01056v1": {
+        "title": "Records from the S-Matrix Marathon: Tasty Bits of Several Complex Variables",
+        "authors": [
+            "Sean N. Curry",
+            "Ji\u0159\u00ed Lebl",
+            "Mathieu Giroux",
+            "Holmfridur S. Hannesdottir",
+            "Sebastian Mizera",
+            "Celina Pasiecznik"
+        ],
+        "abstract": "We will cover the basics of several complex variables in 4 lectures: Basic\nproperties of holomorphic functions in several variables, the notion of\npseudoconvexity, CR functions and CR geometry, and the $\\bar\\partial$-problem.\nThe main underlying idea is to connect various characterizations of domains of\nholomorphy, that is, the natural domains of definition for holomorphic\nfunctions. In the process we will connect the function theory on the domain to\ngeometric properties of the boundary, and discuss the relationship between the\nboundary values and the functions themselves and extension of holomorphic\nfunctions from subspaces.\n  These notes are based on a series of lectures held during the S-Matrix\nMarathon workshop at the Institute for Advanced Study on 11-22 March 2024.",
+        "link": "http://arxiv.org/abs/2411.01056v1",
+        "pdf_link": "http://arxiv.org/pdf/2411.01056v1"
+    },
+    "http://arxiv.org/abs/2410.12099v1": {
+        "title": "The EMC Effect of Tritium and Helium-3 from the JLab MARATHON Experiment",
+        "authors": [
+            "D. Abrams",
+            "H. Albataineh",
+            "B. S. Aljawrneh",
+            "S. Alsalmi",
+            "D. Androic",
+            "K. Aniol",
+            "W. Armstrong",
+            "J. Arrington",
+            "H. Atac",
+            "T. Averett",
+            "C. Ayerbe Gayoso",
+            "X. Bai",
+            "J. Bane",
+            "S. Barcus",
+            "A. Beck",
+            "V. Bellini",
+            "H. Bhatt",
+            "D. Bhetuwal",
+            "D. Biswas",
+            "D. Blyth",
+            "W. Boeglin",
+            "D. Bulumulla",
+            "J. Butler",
+            "A. Camsonne",
+            "M. Carmignotto",
+            "J. Castellanos",
+            "J. -P. Chen",
+            "I. C. Clo\u00ebt",
+            "E. O. Cohen",
+            "S. Covrig",
+            "K. Craycraft",
+            "R. Cruz-Torres",
+            "B. Dongwi",
+            "B. Duran",
+            "D. Dutta",
+            "N. Fomin",
+            "E. Fuchey",
+            "C. Gal",
+            "T. N. Gautam",
+            "S. Gilad",
+            "K. Gnanvo",
+            "T. Gogami",
+            "J. Gomez",
+            "C. Gu",
+            "A. Habarakada",
+            "T. Hague",
+            "J. -O. Hansen",
+            "M. Hattawy",
+            "F. Hauenstein",
+            "D. W. Higinbotham",
+            "R. J. Holt",
+            "E. W. Hughes",
+            "C. Hyde",
+            "H. Ibrahim",
+            "S. Jian",
+            "S. Joosten",
+            "A. Karki",
+            "B. Karki",
+            "A. T. Katramatou",
+            "C. Keith",
+            "C. Keppel",
+            "M. Khachatryan",
+            "V. Khachatryan",
+            "A. Khanal",
+            "A. Kievsky",
+            "D. King",
+            "P. M. King",
+            "I. Korover",
+            "S. A. Kulagin",
+            "K. S. Kumar",
+            "T. Kutz",
+            "N. Lashley-Colthirst",
+            "S. Li",
+            "W. Li",
+            "H. Liu",
+            "S. Liuti",
+            "N. Liyanage",
+            "P. Markowitz",
+            "R. E. McClellan",
+            "D. Meekins",
+            "S. Mey-Tal Beck",
+            "Z. -E. Meziani",
+            "R. Michaels",
+            "M. Mihovilovic",
+            "V. Nelyubin",
+            "D. Nguyen",
+            "Nuruzzaman",
+            "M. Nycz",
+            "R. Obrecht",
+            "M. Olson",
+            "V. F. Owen",
+            "E. Pace",
+            "B. Pandey",
+            "V. Pandey",
+            "M. Paolone",
+            "A. Papadopoulou",
+            "S. Park",
+            "S. Paul",
+            "G. G. Petratos",
+            "R. Petti",
+            "E. Piasetzky",
+            "R. Pomatsalyuk",
+            "S. Premathilake",
+            "A. J. R. Puckett",
+            "V. Punjabi",
+            "R. D. Ransome",
+            "M. N. H. Rashad",
+            "P. E. Reimer",
+            "S. Riordan",
+            "J. Roche",
+            "G. Salm\u00e8",
+            "N. Santiesteban",
+            "B. Sawatzky",
+            "S. Scopetta",
+            "A. Schmidt",
+            "B. Schmookler",
+            "J. Segal",
+            "E. P. Segarra",
+            "A. Shahinyan",
+            "S. \u0160irca",
+            "N. Sparveris",
+            "T. Su",
+            "R. Suleiman",
+            "H. Szumila-Vance",
+            "A. S. Tadepalli",
+            "L. Tang",
+            "W. Tireman",
+            "F. Tortorici",
+            "G. M. Urciuoli",
+            "B. Wojtsekhowski",
+            "S. Wood",
+            "Z. H. Ye",
+            "Z. Y. Ye",
+            "J. Zhang"
+        ],
+        "abstract": "Measurements of the EMC effect in the tritium and helium-3 mirror nuclei are\nreported. The data were obtained by the MARATHON Jefferson Lab experiment,\nwhich performed deep inelastic electron scattering from deuterium and the\nthree-body nuclei, using a cryogenic gas target system and the High Resolution\nSpectrometers of the Hall A Facility of the Lab. The data cover the Bjorken $x$\nrange from 0.20 to 0.83, corresponding to a squared four-momentum transfer\n$Q^2$ range from 2.7 to $11.9\\gevsq$, and to an invariant mass $W$ of the final\nhadronic state greater than 1.84 GeV/${\\it c}^2$. The tritium EMC effect\nmeasurement is the first of its kind. The MARATHON experimental results are\ncompared to results from previous measurements by DESY-HERMES and JLab-Hall C\nexperiments, as well as with few-body theoretical predictions.",
+        "link": "http://arxiv.org/abs/2410.12099v1",
+        "pdf_link": "http://arxiv.org/pdf/2410.12099v1"
+    },
+    "http://arxiv.org/abs/2410.10602v1": {
+        "title": "Records from the S-Matrix Marathon: Schwinger-Keldysh Formalism",
+        "authors": [
+            "Felix M. Haehl",
+            "Mukund Rangamani"
+        ],
+        "abstract": "These notes provide an overview of real-time techniques in quantum field\ntheories and holography. We outline the general rationale and principles\nunderlying the Schwinger-Keldysh formalism and its out-of-time-order\ngeneralizations. To illustrate its broad utility we frame our discussion in the\nlanguage of open quantum dynamics. As a specific application we describe how\nsuch real-time observables help in understanding scrambling dynamics. We also\ndescribe the holographic prescription for computing thermal Schwinger-Keldysh\nobservables. These notes are based on a series of lectures held during the\nS-Matrix Marathon workshop at the Institute for Advanced Study on 11-22 March\n2024.",
+        "link": "http://arxiv.org/abs/2410.10602v1",
+        "pdf_link": "http://arxiv.org/pdf/2410.10602v1"
+    },
+    "http://arxiv.org/abs/2410.00227v2": {
+        "title": "Records from the S-Matrix Marathon: A Timeless History of Time",
+        "authors": [
+            "Mang Hei Gordon Lee",
+            "Enrico Pajer",
+            "Mathieu Giroux",
+            "Holmfridur S. Hannesdottir",
+            "Sebastian Mizera",
+            "Celina Pasiecznik"
+        ],
+        "abstract": "By directly probing the initial conditions of our universe, cosmological\nsurveys offer us a unique observational handle on quantum field theory in\ncurved spacetime with dynamical gravity and might even allow us to glean\ninformation about a full theory of quantum gravity. Here we report on recent\nprogress to study the natural observables in the problem, namely cosmological\ncorrelators. After setting the stage, we review results from three different\napproaches. First, we present the in-out formalism as an interesting\nalternative to the well-known in-in formalism and stress some of its\nadvantages, such as the derivation of recursion relations, correlators cutting\nrules and a proposal for a de Sitter scattering matrix. Second, we tackle the\nimportant open problem of constructing effective theories in curved spacetime,\nwhich generally requires an open quantum system approach. Third, we provide an\nexecutive summary of general properties of the field-theoretic wavefunction\nthat follow from symmetries, unitarity, causality and locality. We describe how\nthese properties can be leveraged to bootstrap all tree-level results and we\ndiscuss loop contributions.\n  These notes are based on a series of lectures held during the S-Matrix\nMarathon workshop at the Institute for Advanced Study on 11-22 March 2024.",
+        "link": "http://arxiv.org/abs/2410.00227v2",
+        "pdf_link": "http://arxiv.org/pdf/2410.00227v2"
+    },
+    "http://arxiv.org/abs/2409.18547v1": {
+        "title": "Two remarks on asymptotically log Fano pairs",
+        "authors": [
+            "Jesus Martinez-Garcia"
+        ],
+        "abstract": "Asymptotically log Fano pairs were introduced by Cheltsov and Rubinstein,\ngeneralising a definition of Maeda. They have received attention in the last\ndecade within the theory of K-stability, as they approximate log Calabi Yau\npairs while staying in the log Fano setting. In this note, written for the ZAG\nProceedings, we summarise our talk on 1st September 2020 (Day of Knowledge)\ngiven on Zoom during the 24-hour ZAG Marathon. In the talk, we reported on\njoint work with P. Cascini and Y. Rubinstein, on the classification of the\ntwo-dimensional case, known as asymptotically log del Pezzo pairs.",
+        "link": "http://arxiv.org/abs/2409.18547v1",
+        "pdf_link": "http://arxiv.org/pdf/2409.18547v1"
+    },
+    "http://arxiv.org/abs/2409.14947v1": {
+        "title": "Records from the S-Matrix Marathon: Observables in Expanding Universes",
+        "authors": [
+            "Paolo Benincasa",
+            "Mathieu Giroux",
+            "Holmfridur S. Hannesdottir",
+            "Sebastian Mizera",
+            "Celina Pasiecznik",
+            "Francisco Vaz\u00e3o"
+        ],
+        "abstract": "Observables in expanding universes are crucial to understand the physics of\nthe early universe. In these lectures, we review some recent progress in\nunderstanding their mathematical structure and extract the physics encoded in\nthem. After discussing the most salient features of an expanding background and\ntheir consequences for defining an observable, we focus on the so-called\nBunch--Davies wavefunctional. We analyze its analytic properties on general\ngrounds and introduce an integral representation for it in perturbation theory\nfor a special class of scalar toy models. We discuss both the diagrammatics\nassociated to the usual Feynman rules and combinatorial rules on the graphs,\nwhich generate a representation free of spurious poles. Such combinatorial\nrules find their origin in the combinatorics of the cosmological polytopes of\nwhich we provide a gentle introduction to its definition and its main features.\nFinally, the combinatorics of the cosmological polytopes turns out to determine\nthe combinatorics of a special class of nestohedra that encode the asymptotic\nbehaviour of the cosmological integrals. We provide a general description of\nsuch structures and behaviour, which is of crucial importance to understand the\ninfrared divergences which plague observables in an expanding background. These\nnotes are based on a series of lectures held during the S-Matrix Marathon\nworkshop at the Institute for Advanced Study on 11--22 March 2024.",
+        "link": "http://arxiv.org/abs/2409.14947v1",
+        "pdf_link": "http://arxiv.org/pdf/2409.14947v1"
+    },
+    "http://arxiv.org/abs/2407.14683v1": {
+        "title": "Large-Area Emergency Lockdowns with Automated Driving Systems",
+        "authors": [
+            "Noah Goodall"
+        ],
+        "abstract": "Region-wide restrictions on personal vehicle travel have a long history in\nthe United States, from riot curfews in the late 1960s, to travel bans during\nsnow events, to the 2013 shelter-in-place \"lockdown\" during the search for the\nperpetrator of the Boston Marathon bombing. Because lockdowns require\ntremendous resources to enforce, they are often limited in duration or scope.\nThe introduction of automated driving systems may allow governments to quickly\nand cheaply effect large-area lockdowns by jamming wireless communications,\nspoofing road closures on digital maps, exploiting a vehicle's programming to\nobey all traffic control devices, or coordinating with vehicle developers.\nFuture vehicles may lack conventional controls, rendering them undrivable by\nthe public. As travel restrictions become easier to implement, governments may\nenforce them more frequently, over longer durations and wider areas. This\narticle explores the practical, legal, and ethical implications of lockdowns\nwhen most driving is highly automated, and provides guidance for the\ndevelopment of lockdown policies.",
+        "link": "http://arxiv.org/abs/2407.14683v1",
+        "pdf_link": "http://arxiv.org/pdf/2407.14683v1"
+    },
+    "http://arxiv.org/abs/2407.11245v2": {
+        "title": "Pacer and Runner: Cooperative Learning Framework between Single- and Cross-Domain Sequential Recommendation",
+        "authors": [
+            "Chung Park",
+            "Taesan Kim",
+            "Hyungjun Yoon",
+            "Junui Hong",
+            "Yelim Yu",
+            "Mincheol Cho",
+            "Minsung Choi",
+            "Jaegul Choo"
+        ],
+        "abstract": "Cross-Domain Sequential Recommendation (CDSR) improves recommendation\nperformance by utilizing information from multiple domains, which contrasts\nwith Single-Domain Sequential Recommendation (SDSR) that relies on a historical\ninteraction within a specific domain. However, CDSR may underperform compared\nto the SDSR approach in certain domains due to negative transfer, which occurs\nwhen there is a lack of relation between domains or different levels of data\nsparsity. To address the issue of negative transfer, our proposed CDSR model\nestimates the degree of negative transfer of each domain and adaptively assigns\nit as a weight factor to the prediction loss, to control gradient flows through\ndomains with significant negative transfer. To this end, our model compares the\nperformance of a model trained on multiple domains (CDSR) with a model trained\nsolely on the specific domain (SDSR) to evaluate the negative transfer of each\ndomain using our asymmetric cooperative network. In addition, to facilitate the\ntransfer of valuable cues between the SDSR and CDSR tasks, we developed an\nauxiliary loss that maximizes the mutual information between the representation\npairs from both tasks on a per-domain basis. This cooperative learning between\nSDSR and CDSR tasks is similar to the collaborative dynamics between pacers and\nrunners in a marathon. Our model outperformed numerous previous works in\nextensive experiments on two real-world industrial datasets across ten service\ndomains. We also have deployed our model in the recommendation system of our\npersonal assistant app service, resulting in 21.4% increase in click-through\nrate compared to existing models, which is valuable to real-world business.",
+        "link": "http://arxiv.org/abs/2407.11245v2",
+        "pdf_link": "http://arxiv.org/pdf/2407.11245v2"
+    },
+    "http://arxiv.org/abs/2312.13499v1": {
+        "title": "Impact of the MARATHON data on \\texorpdfstring{$F_{2n}/F_{2p}$}{F2n/F2p} and off-shell effects in light nuclei",
+        "authors": [
+            "T. J. Hague",
+            "J. Arrington",
+            "S. Li",
+            "S. N. Santiesteban"
+        ],
+        "abstract": "The neutron structure function, $F_{2n}$, has historically been extracted\nfrom measurements of the deuteron structure function, but our understanding of\nthe nuclear effects on the bound proton and neutron limits the extraction of\n$F_{2n}$. The MARATHON collaboration recently extracted $F_{2n}$ from the\ncomparison of $^3$H and $^3$He targets, where the nuclear effects are larger\nbut nearly identical, yielding a precise extraction of $F_{2n}/F_{2p}$. This\nprecise extraction can then be compared to deuteron extractions, providing\nimportant constraints on the nuclear effects in the deuteron. To ensure that\nthis comparison is not biased by the specific model of nuclear effects used by\nMARATHON, we examine a range of models of the nuclear effects to obtain a more\nconservative, but more model-independent, extraction of $F_{2n}/F_{2p}$ for\ncomparison with deuteron extractions. Even with the more conservative approach,\nthe comparison suggests the need for significant off-shell corrections or other\nnuclear effects, beyond those include in most calculations, even for the\nweakly-bound deuteron.",
+        "link": "http://arxiv.org/abs/2312.13499v1",
+        "pdf_link": "http://arxiv.org/pdf/2312.13499v1"
+    },
+    "http://arxiv.org/abs/2312.11108v3": {
+        "title": "Multiple change point detection in functional data with applications to biomechanical fatigue data",
+        "authors": [
+            "Patrick Bastian",
+            "Rupsa Basu",
+            "Holger Dette"
+        ],
+        "abstract": "Injuries to the lower extremity joints are often debilitating, particularly\nfor professional athletes. Understanding the onset of stressful conditions on\nthese joints is therefore important in order to ensure prevention of injuries\nas well as individualised training for enhanced athletic performance. We study\nthe biomechanical joint angles from the hip, knee and ankle for runners who are\nexperiencing fatigue. The data is cyclic in nature and densely collected by\nbody worn sensors, which makes it ideal to work with in the functional data\nanalysis (FDA) framework.\n  We develop a new method for multiple change point detection for functional\ndata, which improves the state of the art with respect to at least two novel\naspects. First, the curves are compared with respect to their maximum absolute\ndeviation, which leads to a better interpretation of local changes in the\nfunctional data compared to classical $L^2$-approaches. Secondly, as slight\naberrations are to be often expected in a human movement data, our method will\nnot detect arbitrarily small changes but hunts for relevant changes, where\nmaximum absolute deviation between the curves exceeds a specified threshold,\nsay $\\Delta >0$. We recover multiple changes in a long functional time series\nof biomechanical knee angle data, which are larger than the desired threshold\n$\\Delta$, allowing us to identify changes purely due to fatigue. In this work,\nwe analyse data from both controlled indoor as well as from an uncontrolled\noutdoor (marathon) setting.",
+        "link": "http://arxiv.org/abs/2312.11108v3",
+        "pdf_link": "http://arxiv.org/pdf/2312.11108v3"
+    },
+    "http://arxiv.org/abs/2312.09542v2": {
+        "title": "Marathon: A Race Through the Realm of Long Context with Large Language Models",
+        "authors": [
+            "Lei Zhang",
+            "Yunshui Li",
+            "Ziqiang Liu",
+            "Jiaxi yang",
+            "Junhao Liu",
+            "Longze Chen",
+            "Run Luo",
+            "Min Yang"
+        ],
+        "abstract": "With the advancement of large language models (LLMs) and the expansion of\ntheir context windows, existing long-context benchmarks fall short in\neffectively evaluating the models' comprehension and reasoning abilities in\nextended texts. Moreover, conventional benchmarks relying on F1 metrics often\ninaccurately score responses: they may undervalue correct answers that differ\nfrom the reference responses and overvalue incorrect ones that resemble the\nreference texts. In response to these limitations, we introduce Marathon, a\nnovel evaluation benchmark that adopts a multiple-choice question format. It is\nspecifically designed to overcome the constraints of previous benchmarks and\nprovide a rapid, precise, and unbiased appraisal of the long-context\ncomprehension skills of large language models. We conducted comprehensive\nevaluations on the Marathon benchmark with a range of state-of-the-art LLMs and\nassessed the effectiveness of various optimization strategies tailored for\nlong-context generation. We anticipate that the Marathon benchmark and its\nassociated leaderboard will enable a more precise and equitable evaluation of\nLLMs' capabilities in understanding and reasoning over extended contexts.\nMarathon is available at https://github.com/Hambaobao/Marathon.",
+        "link": "http://arxiv.org/abs/2312.09542v2",
+        "pdf_link": "http://arxiv.org/pdf/2312.09542v2"
+    },
+    "http://arxiv.org/abs/2312.00809v1": {
+        "title": "Off-shell modifications of bound nucleons and parton distributions",
+        "authors": [
+            "S. I. Alekhin",
+            "S. A. Kulagin",
+            "R. Petti"
+        ],
+        "abstract": "We discuss results from our global QCD analyses including nuclear data off\ndeuterium from various measurements, as well as off $^3$H and $^3$He targets\nfrom the MARATHON experiment. We simultaneously determine the parton\ndistribution functions of the proton, the higher-twist terms, and the nucleon\noff-shell correction functions responsible for the modifications of the\npartonic structure in bound protons and neutrons. In particular, we study the\nneutron-proton asymmetry of the off-shell correction and its interplay with the\ntreatment of the higher-twist terms. We observe that the data on the\n$^3$He/$^3$H cross section ratio are consistent with a single isoscalar\noff-shell function. We also provide our predictions on the ratio $F_2^n/F_2^p$\nand on the $d$ and $u$ quark distributions in the proton and in the $^3$H and\n$^3$He nuclei.",
+        "link": "http://arxiv.org/abs/2312.00809v1",
+        "pdf_link": "http://arxiv.org/pdf/2312.00809v1"
+    },
+    "http://arxiv.org/abs/2311.08645v1": {
+        "title": "Against negative splitting: the case for alternative pacing strategies for elite marathon athletes in official events",
+        "authors": [
+            "Guilherme Fernandes",
+            "Victor Maldonado"
+        ],
+        "abstract": "Objectives: Negative splitting (i.e., finishing the race faster) is a tactic\ncommonly employed by elite marathon athletes, even though research supporting\nthe strategy is scarce. The presence of pacers allows the main runner to run\nbehind a formation, preserving energy. Our aim is to show that, in the presence\nof pacers, the most efficient pacing strategy is positive splitting. Methods:\nWe evaluated the performance of an elite marathon runner from an energetic\nstandpoint, including drag values obtained through Computational Fluid Dynamics\n(CFD). In varying simulations for different pacing strategies, the energy for\nboth the main runner and his pacer were conserved and the total race time was\ncalculated. Results: In order to achieve minimum race time, the main runner\nmust start the race faster and run behind the pacers, and when the pacers drop\nout, finish the race slower. Optimal race times are obtained when the protected\nphase is run 2.4 to 2.6% faster than the unprotected phase. Conclusion: Our\nresults provide strong evidence that positive splitting is indeed the best\npacing strategy when at least one pacer is present, causing significant time\nsavings in official marathon events.",
+        "link": "http://arxiv.org/abs/2311.08645v1",
+        "pdf_link": "http://arxiv.org/pdf/2311.08645v1"
+    },
+    "http://arxiv.org/abs/2311.08085v1": {
+        "title": "Optimizing Electric Vehicle Efficiency with Real-Time Telemetry using Machine Learning",
+        "authors": [
+            "Aryaman Rao",
+            "Harshit Gupta",
+            "Parth Singh",
+            "Shivam Mittal",
+            "Utkrash Singh",
+            "Dinesh Kumar Vishwakarma"
+        ],
+        "abstract": "In the contemporary world with degrading natural resources, the urgency of\nenergy efficiency has become imperative due to the conservation and\nenvironmental safeguarding. Therefore, it's crucial to look for advanced\ntechnology to minimize energy consumption. This research focuses on the\noptimization of battery-electric city style vehicles through the use of a\nreal-time in-car telemetry system that communicates between components through\nthe robust Controller Area Network (CAN) protocol. By harnessing real-time data\nfrom various sensors embedded within vehicles, our driving assistance system\nprovides the driver with visual and haptic actionable feedback that guides the\ndriver on using the optimum driving style to minimize power consumed by the\nvehicle. To develop the pace feedback mechanism for the driver, real-time data\nis collected through a Shell Eco Marathon Urban Concept vehicle platform and\nafter pre-processing, it is analyzed using the novel machine learning algorithm\nTEMSL, that outperforms the existing baseline approaches across various\nperformance metrics. This innovative method after numerous experimentation has\nproven effective in enhancing energy efficiency, guiding the driver along the\ntrack, and reducing human errors. The driving-assistance system offers a range\nof utilities, from cost savings and extended vehicle lifespan to significant\ncontributions to environmental conservation and sustainable driving practices.",
+        "link": "http://arxiv.org/abs/2311.08085v1",
+        "pdf_link": "http://arxiv.org/pdf/2311.08085v1"
+    },
+    "http://arxiv.org/abs/2310.13609v2": {
+        "title": "Polarised crowd in motion: insights into statistical and dynamical behavior",
+        "authors": [
+            "Pratikshya Jena",
+            "Shradha Mishra"
+        ],
+        "abstract": "The collection of active agents often exhibits intriguing statistical and\ndynamical properties, particularly when considering human crowds. In this\nstudy, we have developed a computational model to simulate the recent\nexperiment on real marathon races by Bain et al. Our primary goal is to\ninvestigate the impact of race staff on crowd dynamics. By comparing simulated\nraces with and without the presence of race staff, our study reveals that the\nlocal velocity and density of participants display a wave pattern akin to real\nraces for both the cases. The observed traveling wave in the crowd consistently\npropagates at a constant speed, regardless of the system size under\nconsideration. The participants dynamics in the longitudinal direction\nprimarily contribute to velocity fluctuations, while fluctuations in the\ntransverse direction are suppressed. In the absence of race staff, density and\nvelocity fluctuations weaken without significantly affecting other statistical\nand dynamic characteristics of the crowd. Through this research, we aim to\ndeepen our understanding of crowd motion, providing insights that can inform\nthe development of effective crowd management strategies and contribute to the\nsuccessful control of such events.",
+        "link": "http://arxiv.org/abs/2310.13609v2",
+        "pdf_link": "http://arxiv.org/pdf/2310.13609v2"
+    },
+    "http://arxiv.org/abs/2303.01152v2": {
+        "title": "Category Theory for Autonomous Robots: The Marathon 2 Use Case",
+        "authors": [
+            "Esther Aguado",
+            "Virgilio G\u00f3mez",
+            "Miguel Hernando",
+            "Claudio Rossi",
+            "Ricardo Sanz"
+        ],
+        "abstract": "Model-based systems engineering (MBSE) is a methodology that exploits system\nrepresentation during the entire system life-cycle. The use of formal models\nhas gained momentum in robotics engineering over the past few years. Models\nplay a crucial role in robot design; they serve as the basis for achieving\nholistic properties, such as functional reliability or adaptive resilience, and\nfacilitate the automated production of modules. We propose the use of formal\nconceptualizations beyond the engineering phase, providing accurate models that\ncan be leveraged at runtime. This paper explores the use of Category Theory, a\nmathematical framework for describing abstractions, as a formal language to\nproduce such robot models. To showcase its practical application, we present a\nconcrete example based on the Marathon 2 experiment. Here, we illustrate the\npotential of formalizing systems -- including their recovery mechanisms --\nwhich allows engineers to design more trustworthy autonomous robots. This, in\nturn, enhances their dependability and performance.",
+        "link": "http://arxiv.org/abs/2303.01152v2",
+        "pdf_link": "http://arxiv.org/pdf/2303.01152v2"
+    },
+    "http://arxiv.org/abs/2211.09514v2": {
+        "title": "Off-shell effects in bound nucleons and parton distributions from $^1$H, $^2$H, $^3$H and $^3$He data",
+        "authors": [
+            "S. I. Alekhin",
+            "S. A. Kulagin",
+            "R. Petti"
+        ],
+        "abstract": "We report the results of a new global QCD analysis including deep-inelastic\nscattering data off $^1$H, $^2$H, $^3$H, and $^3$He targets. Nuclear\ncorrections are treated in terms of a nuclear convolution approach with\noff-shell bound nucleons. The off-shell (OS) corrections responsible for the\nmodification of the structure functions (SFs) of bound nucleons are constrained\nin a global fit along with the proton parton distribution functions (PDFs) and\nthe higher-twist (HT) terms. We investigate the proton-neutron difference for\nthe OS correction and discuss our predictions for the SF ratio $F_2^n/F_2^p$\nand the corresponding PDF ratio $d/u$ in the proton, as well as their\ncorrelations with the underlying treatment of the HT terms and of the OS\ncorrections. In particular, we find that the recent MARATHON data are\nconsistent with equal relative OS corrections for both the proton and the\nneutron.",
+        "link": "http://arxiv.org/abs/2211.09514v2",
+        "pdf_link": "http://arxiv.org/pdf/2211.09514v2"
+    },
+    "http://arxiv.org/abs/2210.04372v2": {
+        "title": "Physical Implications of the Extrapolation and Statistical Bootstrap of the Nucleon Structure Function Ratio $\\frac{F_2^n}{F_2^p}$ for Mirror Nuclei $^3$He and $^3$H",
+        "authors": [
+            "Hannah Valenty",
+            "Jennifer Rittenhouse West",
+            "Fatiha Benmokhtar",
+            "Douglas W. Higinbotham",
+            "Asia Parker",
+            "Erin Seroka"
+        ],
+        "abstract": "A nuclear physics example of statistical bootstrap is used on the MARATHON\ndata nucleon structure function ratio, $\\frac{F_2^n}{F_2^p}$, in the quark\nmomentum fraction $x_B\\rightarrow0$ and $x_B\\rightarrow1$ regions. The\nextrapolated $F_2$ ratio value as quark momentum fraction $x_B\\rightarrow 1$\napproaches 0.4 and this value is compared to theoretical predictions. The\nextrapolated ratio when $x_B\\rightarrow 0$ favors the simple model of isospin\nsymmetry with the complete dominance of seaquarks at low momentum fraction. At\nhigh-$x_B$, the proton quark distribution function ratio $d/u$ is derived from\nthe $x\\rightarrow 1$ ratio $\\frac{F_2^n}{F_2^p}\\rightarrow 0.4$ and found to be\n$d/u \\rightarrow 1/6$. Our extrapolated values for both the\n$\\frac{F_2^n}{F_2^p}$ ratio and the $d/u$ parton distribution function ratio\nmost closely match perturbative QCD values from quark counting and helicity\nconservation arguments but still differ by roughly $7\\%$. The mismatch to\ntheoretical predictions may be ameliorated if two compatible models act\nsimultaneously in the nucleon wavefunction. One such example is nucleon\nwavefunctions composed of a linear combination of a quark-diquark state and a\n3-valence quark correlated state with coefficients that combine to give the\nextrapolated $F_2$ ratio of $0.4$.",
+        "link": "http://arxiv.org/abs/2210.04372v2",
+        "pdf_link": "http://arxiv.org/pdf/2210.04372v2"
+    },
+    "http://arxiv.org/abs/2209.14612v1": {
+        "title": "A review of univariate and multivariate multifractal analysis illustrated by the analysis of marathon runners physiological data",
+        "authors": [
+            "St\u00e9phane Jaffard",
+            "Guillaume Sa\u00ebs",
+            "Wejdene Ben Nasr",
+            "Florent Palacin",
+            "V\u00e9ronique Billat"
+        ],
+        "abstract": "We review the central results concerning wavelet methods in multifractal\nanalysis, which consists in analysis of the pointwise singularities of a\nsignal, and we describe its recent extension to multivariate multifractal\nanalysis, which deals with the joint analysis of several signals; we focus on\nthe mathematical questions that this new techniques motivate. We illustrate\nthese methods by an application to data recorded on marathon runners.",
+        "link": "http://arxiv.org/abs/2209.14612v1",
+        "pdf_link": "http://arxiv.org/pdf/2209.14612v1"
+    },
+    "http://arxiv.org/abs/2208.10927v1": {
+        "title": "Optimally Controlling Nutrition and Propulsion Force in a Long Distance Running Race",
+        "authors": [
+            "Cameron Cook",
+            "Suzanne Lenhart",
+            "William Hager",
+            "Guoxun Chen"
+        ],
+        "abstract": "Runners competing in races are looking to optimize their performance. In this\npaper, a runner's performance in a race, such as a marathon, is formulated as\nan optimal control problem where the controls are: the nutrition intake\nthroughout the race and the propulsion force of the runner. As nutrition is an\nintegral part of successfully running long distance races, it needs to be\nincluded in models of running strategies. We formulate a system of ordinary\ndifferential equations to represent the velocity, fat energy, glycogen energy,\nand nutrition for a runner competing in a long-distance race. The energy\ncompartments represent the energy sources available in the runner's body. We\nallocate the energy source from which the runner draws, based on how fast the\nrunner is moving. The food consumed during the race is a source term for the\nnutrition differential equation. With our model, we are investigating\nstrategies to manage the nutrition and propulsion force in order to minimize\nthe running time in a fixed distance race. This requires the solution of a\nnontrivial singular control problem. Our results confirm the belief that the\nmost effective way to run a race is to run approximately the same pace the\nentire race without letting one's energies hit zero.",
+        "link": "http://arxiv.org/abs/2208.10927v1",
+        "pdf_link": "http://arxiv.org/pdf/2208.10927v1"
+    },
+    "http://arxiv.org/abs/2206.08140v2": {
+        "title": "Multifractal analysis of physiological data from marathon runners",
+        "authors": [
+            "Guillaume Sa\u00ebs",
+            "Wejdene Ben Nasr",
+            "St\u00e9phane Jaffard",
+            "Florent Palacin",
+            "V\u00e9ronique Billat"
+        ],
+        "abstract": "We propose an analysis of heart rate marathon runners implemented by\ncomputing a multifractal spectrum based on p-exponents. We draw physiological\nconclusions about their performance. Finally, we link this analysis with the\ndisturbances of the heart rate autoregulation during the marathon, which had\nbeen put in evidence up to now only by scales of feeling of marathon runners\nduring the race.",
+        "link": "http://arxiv.org/abs/2206.08140v2",
+        "pdf_link": "http://arxiv.org/pdf/2206.08140v2"
+    },
+    "http://arxiv.org/abs/2206.04744v1": {
+        "title": "The Developers' Design Thinking Toolbox in Hackathons: A Study on the Recurring Design Methods in Software Development Marathons",
+        "authors": [
+            "Kiev Gama",
+            "George Valen\u00e7a",
+            "Pedro Alessio",
+            "Rafael Formiga",
+            "Andr\u00e9 Neves",
+            "Nycolas Lacerda"
+        ],
+        "abstract": "Hackathons are time-bounded collaborative events of intense teamwork to build\nprototypes usually in the form of software, aiming to specific challenges\nproposed by the organizers. These events became a widespread practice in the IT\nindustry, universities and many other scenarios, as a result of a growing\nopen-innovation trend in the last decade. Since the main deliverable of these\nevents is a demonstrable version of an idea, such as early hardware or software\nprototypes, the short time frame requires participants to quickly understand\nthe proposed challenge or even identify issues related to a given domain. To\ncreate solutions, teams follow an ad-hoc but effective design approach, that\nmany times seems informal since the background of the participants is rather\ncentered on technical aspects (e.g., web and mobile programming) and does not\ninvolve any training in Design Thinking.\n  To understand this creative process, we conducted 37 interviews (32\nhackathons winners and 5 hackathon organizers) with people from 16 countries.\nWe aimed to identify the design processes and recurring design methods applied\nby winners in these events. Also, we conducted a focus group with 8 people\nexperienced in hackathons (participants and organizers) to discuss our\nfindings. Our analysis revealed that although hackathon winners with IT\nbackground have no formal training on Design Thinking, they are aware of many\ndesign methods, typically following a sequence of phases that involve divergent\nand convergent thinking to explore the problem space and propose alternatives\nin a solution space, which is the rationale behind Design Thinking. We derived\na set of recommendations based on design strategies that seem to lead to\nsuccessful hackathon participation. These recommendations can also be useful to\norganizers who intend to enhance the experience of newcomers in hackathons.",
+        "link": "http://arxiv.org/abs/2206.04744v1",
+        "pdf_link": "http://arxiv.org/pdf/2206.04744v1"
+    },
+    "http://arxiv.org/abs/2203.07333v2": {
+        "title": "Nuclear effects in the deuteron and global QCD analyses",
+        "authors": [
+            "S. I. Alekhin",
+            "S. A. Kulagin",
+            "R. Petti"
+        ],
+        "abstract": "We report the results of a new global QCD analysis, which includes\ndeep-inelastic $e/\\mu$ scattering data off proton and deuterium, as well as\nDrell-Yan lepton pair production in proton-proton and proton-deuterium\ncollisions and $W^\\pm/Z$ boson production data from $pp$ and $p \\bar p$\ncollisions at the LHC and Tevatron. Nuclear effects in the deuteron are treated\nin terms of a nuclear convolution approach with bound off-shell nucleons within\na weak binding approximation. The off-shell correction is controlled by a\nuniversal function of the Bjorken variable $x$ describing the modification of\nparton distributions in bound nucleons, which is determined in our analysis\nalong with the parton distribution functions of the proton. A number of\nsystematic studies are performed to estimate the uncertainties arising from the\nuse of various deuterium datasets, from the modeling of higher twist\ncontributions to the structure functions, from the treatment of target mass\ncorrections, as well as from the nuclear corrections in the deuteron. We obtain\npredictions for the ratios $F_2^n/F_2^p$, and $d/u$, focusing on the region of\nlarge $x$. We also compare our results with the ones obtained by other QCD\nanalyses, as well as with the recent data from the MARATHON experiment.",
+        "link": "http://arxiv.org/abs/2203.07333v2",
+        "pdf_link": "http://arxiv.org/pdf/2203.07333v2"
+    },
+    "http://arxiv.org/abs/2109.06102v1": {
+        "title": "Wavelet Shrinkage in Nonparametric Regression Models with Positive Noise",
+        "authors": [
+            "Alex Rodrigo dos Santos Sousa",
+            "Nancy Lopes Garcia"
+        ],
+        "abstract": "Wavelet shrinkage estimators are widely applied in several fields of science\nfor denoising data in wavelet domain by reducing the magnitudes of empirical\ncoefficients. In nonparametric regression problem, most of the shrinkage rules\nare derived from models composed by an unknown function with additive gaussian\nnoise. Although gaussian noise assumption is reasonable in several real data\nanalysis, mainly for large sample sizes, it is not general. Contaminated data\nwith positive noise can occur in practice and nonparametric regression models\nwith positive noise bring challenges in wavelet shrinkage point of view. This\nwork develops bayesian shrinkage rules to estimate wavelet coefficients from a\nnonparametric regression framework with additive and strictly positive noise\nunder exponential and lognormal distributions. Computational aspects are\ndiscussed and simulation studies to analyse the performances of the proposed\nshrinkage rules and compare them with standard techniques are done. An\napplication in winning times Boston Marathon dataset is also provided.",
+        "link": "http://arxiv.org/abs/2109.06102v1",
+        "pdf_link": "http://arxiv.org/pdf/2109.06102v1"
+    },
+    "http://arxiv.org/abs/2108.03670v1": {
+        "title": "#StayHome or #Marathon? Social Media Enhanced Pandemic Surveillance on Spatial-temporal Dynamic Graphs",
+        "authors": [
+            "Yichao Zhou",
+            "Jyun-yu Jiang",
+            "Xiusi Chen",
+            "Wei Wang"
+        ],
+        "abstract": "COVID-19 has caused lasting damage to almost every domain in public health,\nsociety, and economy. To monitor the pandemic trend, existing studies rely on\nthe aggregation of traditional statistical models and epidemic spread theory.\nIn other words, historical statistics of COVID-19, as well as the population\nmobility data, become the essential knowledge for monitoring the pandemic\ntrend. However, these solutions can barely provide precise prediction and\nsatisfactory explanations on the long-term disease surveillance while the\nubiquitous social media resources can be the key enabler for solving this\nproblem. For example, serious discussions may occur on social media before and\nafter some breaking events take place. These events, such as marathon and\nparade, may impact the spread of the virus. To take advantage of the social\nmedia data, we propose a novel framework, Social Media enhAnced pandemic\nsuRveillance Technique (SMART), which is composed of two modules: (i)\ninformation extraction module to construct heterogeneous knowledge graphs based\non the extracted events and relationships among them; (ii) time series\nprediction module to provide both short-term and long-term forecasts of the\nconfirmed cases and fatality at the state-level in the United States and to\ndiscover risk factors for COVID-19 interventions. Extensive experiments show\nthat our method largely outperforms the state-of-the-art baselines by 7.3% and\n7.4% in confirmed case/fatality prediction, respectively.",
+        "link": "http://arxiv.org/abs/2108.03670v1",
+        "pdf_link": "http://arxiv.org/pdf/2108.03670v1"
+    },
+    "http://arxiv.org/abs/2104.12337v1": {
+        "title": "How to Catch Marathon Cheaters: New Approximation Algorithms for Tracking Paths",
+        "authors": [
+            "Michael T. Goodrich",
+            "Siddharth Gupta",
+            "Hadi Khodabandeh",
+            "Pedro Matias"
+        ],
+        "abstract": "Given an undirected graph, $G$, and vertices, $s$ and $t$ in $G$, the\ntracking paths problem is that of finding the smallest subset of vertices in\n$G$ whose intersection with any $s$-$t$ path results in a unique sequence. This\nproblem is known to be NP-complete and has applications to animal migration\ntracking and detecting marathon course-cutting, but its approximability is\nlargely unknown. In this paper, we address this latter issue, giving novel\nalgorithms having approximation ratios of $(1+\\epsilon)$, $O(\\lg OPT)$ and\n$O(\\lg n)$, for $H$-minor-free, general, and weighted graphs, respectively. We\nalso give a linear kernel for $H$-minor-free graphs and make improvements to\nthe quadratic kernel for general graphs.",
+        "link": "http://arxiv.org/abs/2104.12337v1",
+        "pdf_link": "http://arxiv.org/pdf/2104.12337v1"
+    },
+    "http://arxiv.org/abs/2104.11976v1": {
+        "title": "Aerodynamic effects and performance improvements of running in drafting formations",
+        "authors": [
+            "Lukas Schickhofer",
+            "Henry Hanson"
+        ],
+        "abstract": "Drafting as a process to reduce drag and to benefit from the presence of\nother competitors is applied in various sports with several recent examples of\ncompetitive running in formations. In this study, the aerodynamics of a\nrealistic model of a female runner is calculated by computational fluid\ndynamics (CFD) simulations at four running speeds of 15 km/h, 18 km/h, 21 km/h,\nand 36 km/h. Aerodynamic power fractions of the total energy expenditure are\nfound to be in the range of 2.6-8.5%. Additionally, four exemplary formations\nare analysed with respect to their drafting potential and resulting drag values\nare compared for the main runner and her pacers. The best of the formations\nachieves a total drag reduction on the main runner of 75.6%. Moreover, there\nare large variations in the drag reduction between the considered formations of\nup to 42% with respect to the baseline single-runner case. We conclude that\nmajor drag reduction of more than 70% can already be achieved with fairly\nsimple formations, while certain factors, such as runners on the sides, can\nhave a detrimental effect on drag reduction due to local acceleration of the\npassing flow. Using an empirical model for mechanical power output during\nrunning, gains of metabolic power and performance predictions are evaluated for\nall considered formations. Improvements in running economy are up to 3.5% for\nthe best formation, leading to velocity gains of 2.3%. This translates to 154 s\n(~2.6 min) saved over a marathon distance. Consequently, direct conclusions are\ndrawn from the obtained data for ideal drafting of long-distance running in\nhighly packed formations.",
+        "link": "http://arxiv.org/abs/2104.11976v1",
+        "pdf_link": "http://arxiv.org/pdf/2104.11976v1"
+    },
+    "http://arxiv.org/abs/2104.08509v2": {
+        "title": "Influence of advanced footwear technology on sub-2 hour marathon and other top running performances",
+        "authors": [
+            "Andreu Arderiu",
+            "Rapha\u00ebl de Fondeville"
+        ],
+        "abstract": "In 2019, Eliud Kipchoge ran a sub-two hour marathon wearing Nike's Alphafly\nshoes. Despite being the fastest marathon time ever recorded, it wasn't\nofficially recognized as race conditions were tightly controlled to maximize\nhis success. Besides, Kipchoge's use of Alphafly shoes was controversial, with\nsome experts claiming that they might have provided an unfair competitive\nadvantage. In this work, we assess the potential influence of advanced footwear\ntechnology and the likelihood of a sub-two hour marathon in official races, by\nstudying the evolution of running top performances from 2001 to 2019 for long\ndistances ranging from 10km to marathon. The analysis is performed using\nextreme value theory, a field of statistics dealing with analysis of rare\nevents. We find a significant evidence of performance-enhancement effect with a\n10% increase of the probability that a new world record for marathon-men\ndiscipline is set in 2021. However, results suggest that achieving a sub-two\nhour marathon in an official race in 2021 is still very unlikely, and exceeds\n10% probability only by 2025.",
+        "link": "http://arxiv.org/abs/2104.08509v2",
+        "pdf_link": "http://arxiv.org/pdf/2104.08509v2"
+    },
+    "http://arxiv.org/abs/2104.07130v1": {
+        "title": "Nucleon off-shell structure and the free neutron valence structure from A=3 inclusive electron scattering measurements",
+        "authors": [
+            "E. P. Segarra",
+            "J. R. Pybus",
+            "F. Hauenstein",
+            "T. Kutz",
+            "D. Higinbotham",
+            "G. A. Miller",
+            "E. Piasetzky",
+            "A. Schmidt",
+            "M. Strikman",
+            "L. B. Weinstein",
+            "O. Hen"
+        ],
+        "abstract": "Understanding the differences between the distribution of quarks bound in\nprotons and neutrons is key for constraining the mechanisms of SU(6)\nspin-flavor symmetry breaking in Quantum Chromodynamics (QCD). While vast\namounts of proton structure measurements were done, data on the structure of\nthe neutron is much more spars as experiments typically extract the structure\nof neutrons from measurements of light atomic nuclei using model-dependent\ncorrections for nuclear effects. Recently the MARATHON collaboration performed\nsuch an extraction by measuring inclusive deep-inelastic electron-scattering on\nhelium-3 and tritium mirror nuclei where nuclear effects are expected to be\nsimilar and thus be suppressed in the helium-3 to tritium ratio. Here we\nevaluate the model dependence of this extraction by examining a wide range of\nmodels including the effect of using instant-form and light-cone nuclear wave\nfunctions and several different parameterizations of nucleon modification\neffects, including those with and without isospin dependence. We find that,\nwhile the data cannot differentiate among the different models of nuclear\nstructure and nucleon modification, they consistently prefer a\nneutron-to-proton structure function ratio of at $x_B \\rightarrow 1$ of $\\sim\n0.4$ with a typical uncertainty ($1\\sigma$) of $\\sim0.05$ and $\\sim0.10$ for\nisospin-independent and isospin-dependent modification models, respectively.\nWhile strongly favoring SU(6) symmetry breaking models based on perturbative\nQCD and the Schwinger-Dyson equation calculation, the MARATHON data do not\ncompletely rule out the scalar di-quark models if an isospin-dependent\nmodification exist.",
+        "link": "http://arxiv.org/abs/2104.07130v1",
+        "pdf_link": "http://arxiv.org/pdf/2104.07130v1"
+    },
+    "http://arxiv.org/abs/2104.06946v2": {
+        "title": "Isovector EMC effect from global QCD analysis with MARATHON data",
+        "authors": [
+            "C. Cocuzza",
+            "C. E. Keppel",
+            "H. Liu",
+            "W. Melnitchouk",
+            "A. Metz",
+            "N. Sato",
+            "A. W. Thomas"
+        ],
+        "abstract": "We report the results of a Monte Carlo global QCD analysis of unpolarized\nparton distribution functions (PDFs), including for the first time constraints\nfrom ratios of $^3$He to $^3$H structure functions recently obtained by the\nMARATHON experiment at Jefferson Lab. Our simultaneous analysis of nucleon PDFs\nand nuclear effects in $A=2$ and $A=3$ nuclei reveals the first indication for\nan isovector nuclear EMC effect in light nuclei. We find that while the\nMARATHON data yield relatively weak constraints on the $F_2^n/F_2^p$ neutron to\nproton structure function ratio and on the $d/u$ PDF ratio, they suggest an\nenhanced nuclear effect on the $d$-quark PDF in the bound proton, questioning\nthe assumptions commonly made in nuclear PDF analyses.",
+        "link": "http://arxiv.org/abs/2104.06946v2",
+        "pdf_link": "http://arxiv.org/pdf/2104.06946v2"
+    },
+    "http://arxiv.org/abs/2104.05850v2": {
+        "title": "Measurement of the Nucleon $F^n_2/F^p_2$ Structure Function Ratio by the Jefferson Lab MARATHON Tritium/Helium-3 Deep Inelastic Scattering Experiment",
+        "authors": [
+            "MARATHON Collaboration",
+            "D. Abrams",
+            "H. Albataineh",
+            "B. S. Aljawrneh",
+            "S. Alsalmi",
+            "K. Aniol",
+            "W. Armstrong",
+            "J. Arrington",
+            "H. Atac",
+            "T. Averett",
+            "C. Ayerbe Gayoso",
+            "X. Bai",
+            "J. Bane",
+            "S. Barcus",
+            "A. Beck",
+            "V. Bellini",
+            "H. Bhatt",
+            "D. Bhetuwal",
+            "D. Biswas",
+            "D. Blyth",
+            "W. Boeglin",
+            "D. Bulumulla",
+            "J. Butler",
+            "A. Camsonne",
+            "M. Carmignotto",
+            "J. Castellanos",
+            "J. -P. Chen",
+            "E. O. Cohen",
+            "S. Covrig",
+            "K. Craycraft",
+            "R. Cruz-Torres",
+            "B. Dongwi",
+            "B. Duran",
+            "D. Dutta",
+            "E. Fuchey",
+            "C. Gal",
+            "T. N. Gautam",
+            "S. Gilad",
+            "K. Gnanvo",
+            "T. Gogami",
+            "J. Gomez",
+            "C. Gu",
+            "A. Habarakada",
+            "T. Hague",
+            "J. -O. Hansen",
+            "M. Hattawy",
+            "F. Hauenstein",
+            "D. W. Higinbotham",
+            "R. J. Holt",
+            "E. W. Hughes",
+            "C. Hyde",
+            "H. Ibrahim",
+            "S. Jian",
+            "S. Joosten",
+            "A. Karki",
+            "B. Karki",
+            "A. T. Katramatou",
+            "C. Keith",
+            "C. Keppel",
+            "M. Khachatryan",
+            "V. Khachatryan",
+            "A. Khanal",
+            "A. Kievsky",
+            "D. King",
+            "P. M. King",
+            "I. Korover",
+            "S. A. Kulagin",
+            "K. S. Kumar",
+            "T. Kutz",
+            "N. Lashley-Colthirst",
+            "S. Li",
+            "W. Li",
+            "H. Liu",
+            "S. Liuti",
+            "N. Liyanage",
+            "P. Markowitz",
+            "R. E. McClellan",
+            "D. Meekins",
+            "S. Mey-Tal Beck",
+            "Z. -E. Meziani",
+            "R. Michaels",
+            "M. Mihovilovic",
+            "V. Nelyubin",
+            "D. Nguyen",
+            "Nuruzzaman",
+            "M. Nycz",
+            "R. Obrecht",
+            "M. Olson",
+            "V. F. Owen",
+            "E. Pace",
+            "B. Pandey",
+            "V. Pandey",
+            "M. Paolone",
+            "A. Papadopoulou",
+            "S. Park",
+            "S. Paul",
+            "G. G. Petratos",
+            "R. Petti",
+            "E. Piasetzky",
+            "R. Pomatsalyuk",
+            "S. Premathilake",
+            "A. J. R. Puckett",
+            "V. Punjabi",
+            "R. D. Ransome",
+            "M. N. H. Rashad",
+            "P. E. Reimer",
+            "S. Riordan",
+            "J. Roche",
+            "G. Salme",
+            "N. Santiesteban",
+            "B. Sawatzky",
+            "S. Scopetta",
+            "A. Schmidt",
+            "B. Schmookler",
+            "J. Segal",
+            "E. P. Segarra",
+            "A. Shahinyan",
+            "S. Sirca",
+            "N. Sparveris",
+            "T. Su",
+            "R. Suleiman",
+            "H. Szumila-Vance",
+            "A. S. Tadepalli",
+            "L. Tang",
+            "W. Tireman",
+            "F. Tortorici",
+            "G. M. Urciuoli",
+            "B. Wojtsekhowski",
+            "S. Wood",
+            "Z. H. Ye",
+            "Z. Y. Ye",
+            "J. Zhang"
+        ],
+        "abstract": "The ratio of the nucleon $F_2$ structure functions, $F_2^n/F_2^p$, is\ndetermined by the MARATHON experiment from measurements of deep inelastic\nscattering of electrons from $^3$H and $^3$He nuclei. The experiment was\nperformed in the Hall A Facility of Jefferson Lab and used two high resolution\nspectrometers for electron detection, and a cryogenic target system which\nincluded a low-activity tritium cell. The data analysis used a novel technique\nexploiting the mirror symmetry of the two nuclei, which essentially eliminates\nmany theoretical uncertainties in the extraction of the ratio. The results,\nwhich cover the Bjorken scaling variable range $0.19 < x < 0.83$, represent a\nsignificant improvement compared to previous SLAC and Jefferson Lab\nmeasurements for the ratio. They are compared to recent theoretical\ncalculations and empirical determinations of the $F_2^n/F_2^p$ ratio.",
+        "link": "http://arxiv.org/abs/2104.05850v2",
+        "pdf_link": "http://arxiv.org/pdf/2104.05850v2"
+    },
+    "http://arxiv.org/abs/2104.02749v1": {
+        "title": "Heuristics2Annotate: Efficient Annotation of Large-Scale Marathon Dataset For Bounding Box Regression",
+        "authors": [
+            "Pranjal Singh Rajput",
+            "Yeshwanth Napolean",
+            "Jan van Gemert"
+        ],
+        "abstract": "Annotating a large-scale in-the-wild person re-identification dataset\nespecially of marathon runners is a challenging task. The variations in the\nscenarios such as camera viewpoints, resolution, occlusion, and illumination\nmake the problem non-trivial. Manually annotating bounding boxes in such\nlarge-scale datasets is cost-inefficient. Additionally, due to crowdedness and\nocclusion in the videos, aligning the identity of runners across multiple\ndisjoint cameras is a challenge. We collected a novel large-scale in-the-wild\nvideo dataset of marathon runners. The dataset consists of hours of recording\nof thousands of runners captured using 42 hand-held smartphone cameras and\ncovering real-world scenarios. Due to the presence of crowdedness and occlusion\nin the videos, the annotation of runners becomes a challenging task. We propose\na new scheme for tackling the challenges in the annotation of such large\ndataset. Our technique reduces the overall cost of annotation in terms of time\nas well as budget. We demonstrate performing fps analysis to reduce the effort\nand time of annotation. We investigate several annotation methods for\nefficiently generating tight bounding boxes. Our results prove that\ninterpolating bounding boxes between keyframes is the most efficient method of\nbounding box generation amongst several other methods and is 3x times faster\nthan the naive baseline method. We introduce a novel way of aligning the\nidentity of runners in disjoint cameras. Our inter-camera alignment tool\nintegrated with the state-of-the-art person re-id system proves to be\nsufficient and effective in the alignment of the runners across multiple\ncameras with non-overlapping views. Our proposed framework of annotation\nreduces the annotation cost of the dataset by a factor of 16x, also effectively\naligning 93.64% of the runners in the cross-camera setting.",
+        "link": "http://arxiv.org/abs/2104.02749v1",
+        "pdf_link": "http://arxiv.org/pdf/2104.02749v1"
+    },
+    "http://arxiv.org/abs/2011.09792v1": {
+        "title": "The Robot Household Marathon Experiment",
+        "authors": [
+            "Gayane Kazhoyan",
+            "Simon Stelter",
+            "Franklin Kenghagho Kenfack",
+            "Sebastian Koralewski",
+            "Michael Beetz"
+        ],
+        "abstract": "In this paper, we present an experiment, designed to investigate and evaluate\nthe scalability and the robustness aspects of mobile manipulation. The\nexperiment involves performing variations of mobile pick and place actions and\nopening/closing environment containers in a human household. The robot is\nexpected to act completely autonomously for extended periods of time. We\ndiscuss the scientific challenges raised by the experiment as well as present\nour robotic system that can address these challenges and successfully perform\nall the tasks of the experiment. We present empirical results and the lessons\nlearned as well as discuss where we hit limitations.",
+        "link": "http://arxiv.org/abs/2011.09792v1",
+        "pdf_link": "http://arxiv.org/pdf/2011.09792v1"
+    },
+    "http://arxiv.org/abs/2009.09073v1": {
+        "title": "Running the COVID-19 marathon: the behavioral adaptations in mobility and facemask over 27 weeks of pandemic in Seoul, South Korea",
+        "authors": [
+            "Jungwoo Cho",
+            "Yuyol Shin",
+            "Seyun Kim",
+            "Namwoo Kim",
+            "Soohwan Oh",
+            "Haechan Cho",
+            "Yoonjin Yoon"
+        ],
+        "abstract": "Battle with COVID-19 turned out to be a marathon, not a sprint, and\nbehavioral adjustments have been unavoidable to stay viable. In this paper, we\nemploy a data-centric approach to investigate individual mobility adaptations\nand mask-wearing in Seoul, South Korea. We first identify six epidemic phases\nand two waves based on COVID-19 case count and its geospatial dispersion. The\nphase-specific linear models reveal the strong, self-driven mobility reductions\nin the first escalation and peak with a common focus on public transit use and\nless-essential weekend/afternoon trips. However, comparable reduction was not\npresent in the second wave, as the shifted focus from mobility to mask-wearing\nwas evident. Although no lockdowns and gentle nudge to wear mask seemed\ncounter-intuitive, simple and persistent communication on personal safety has\nbeen effective and sustainable to induce cooperative behavioral adaptations.\nOur phase-specific analyses and interpretation highlight the importance of\ntargeted response consistent with the fluctuating epidemic risk.",
+        "link": "http://arxiv.org/abs/2009.09073v1",
+        "pdf_link": "http://arxiv.org/pdf/2009.09073v1"
+    },
+    "http://arxiv.org/abs/2005.12524v1": {
+        "title": "A New Unified Method for Detecting Text from Marathon Runners and Sports Players in Video",
+        "authors": [
+            "Sauradip Nag",
+            "Palaiahnakote Shivakumara",
+            "Umapada Pal",
+            "Tong Lu",
+            "Michael Blumenstein"
+        ],
+        "abstract": "Detecting text located on the torsos of marathon runners and sports players\nin video is a challenging issue due to poor quality and adverse effects caused\nby flexible/colorful clothing, and different structures of human bodies or\nactions. This paper presents a new unified method for tackling the above\nchallenges. The proposed method fuses gradient magnitude and direction\ncoherence of text pixels in a new way for detecting candidate regions.\nCandidate regions are used for determining the number of temporal frame\nclusters obtained by K-means clustering on frame differences. This process in\nturn detects key frames. The proposed method explores Bayesian probability for\nskin portions using color values at both pixel and component levels of temporal\nframes, which provides fused images with skin components. Based on skin\ninformation, the proposed method then detects faces and torsos by finding\nstructural and spatial coherences between them. We further propose adaptive\npixels linking a deep learning model for text detection from torso regions. The\nproposed method is tested on our own dataset collected from marathon/sports\nvideo and three standard datasets, namely, RBNR, MMM and R-ID of marathon\nimages, to evaluate the performance. In addition, the proposed method is also\ntested on the standard natural scene datasets, namely, CTW1500 and MS-COCO text\ndatasets, to show the objectiveness of the proposed method. A comparative study\nwith the state-of-the-art methods on bib number/text detection of different\ndatasets shows that the proposed method outperforms the existing methods.",
+        "link": "http://arxiv.org/abs/2005.12524v1",
+        "pdf_link": "http://arxiv.org/pdf/2005.12524v1"
+    },
+    "http://arxiv.org/abs/2004.14659v3": {
+        "title": "QCD Hidden-Color Hexa-diquark in the Central Core of Nuclei",
+        "authors": [
+            "Jennifer Rittenhouse West",
+            "Stanley J. Brodsky",
+            "Guy F. de Teramond",
+            "Alfred S. Goldhaber",
+            "Ivan Schmidt"
+        ],
+        "abstract": "Hidden-color configurations are a key prediction of QCD with important\nphysical consequences. In this work we examine a QCD color-singlet\nconfiguration in nuclei formed by combining six scalar $[u d]$ diquarks in a\nstrongly bound $\\rm SU(3)_C$ channel. The resulting hexadiquark state is a\ncharge-2, spin-0, baryon number-4, isospin-0, color-singlet state. It\ncontributes to alpha clustering in light nuclei and to the additional binding\nenergy not saturated by ordinary nuclear forces in \\he as well as the\nalpha-nuclei sequence of interest for nuclear astrophysics. We show that the\nstrongly bound combination of six scalar isospin-0 $[ud]$ diquarks within the\nnuclear wave function - relative to free nucleons - provides a natural\nexplanation of the EMC effect measured by the CLAS collaboration's comparison\nof nuclear parton distribution function ratios for a large range of nuclei.\nThese experiments confirmed that the EMC effect; i.e., the distortion of quark\ndistributions within nuclei, is dominantly identified with the dynamics of\nneutron-proton (``isophobic'') short-range correlations within the nuclear wave\nfunction rather than proton-proton or neutron-neutron correlations.",
+        "link": "http://arxiv.org/abs/2004.14659v3",
+        "pdf_link": "http://arxiv.org/pdf/2004.14659v3"
+    },
+    "http://arxiv.org/abs/2003.00368v2": {
+        "title": "The Marathon 2: A Navigation System",
+        "authors": [
+            "Steve Macenski",
+            "Francisco Mart\u00edn",
+            "Ruffin White",
+            "Jonatan Gin\u00e9s Clavero"
+        ],
+        "abstract": "Developments in mobile robot navigation have enabled robots to operate in\nwarehouses, retail stores, and on sidewalks around pedestrians. Various\nnavigation solutions have been proposed, though few as widely adopted as ROS\nNavigation. 10 years on, it is still one of the most popular navigation\nsolutions. Yet, ROS Navigation has failed to keep up with modern trends. We\npropose the new navigation solution, Navigation2, which builds on the\nsuccessful legacy of ROS Navigation. Navigation2 uses a behavior tree for\nnavigator task orchestration and employs new methods designed for dynamic\nenvironments applicable to a wider variety of modern sensors. It is built on\ntop of ROS2, a secure message passing framework suitable for safety critical\napplications and program lifecycle management. We present experiments in a\ncampus setting utilizing Navigation2 to operate safely alongside students over\na marathon as an extension of the experiment proposed in Eppstein et al. The\nNavigation2 system is freely available at\nhttps://github.com/ros-planning/navigation2 with a rich community and\ninstructions.",
+        "link": "http://arxiv.org/abs/2003.00368v2",
+        "pdf_link": "http://arxiv.org/pdf/2003.00368v2"
+    },
+    "http://arxiv.org/abs/2002.06105v2": {
+        "title": "An Observational Study of the Effect of Nike Vaporfly Shoes on Marathon Performance",
+        "authors": [
+            "Joseph Guinness",
+            "Debasmita Bhattacharya",
+            "Jenny Chen",
+            "Max Chen",
+            "Angela Loh"
+        ],
+        "abstract": "We collected marathon performance data from a systematic sample of elite and\nsub-elite athletes over the period 2015 to 2019, then searched the internet for\npublicly-available photographs of these performances, identifying whether the\nNike Vaporfly shoes were worn or not in each performance. Controlling for\nathlete ability and race difficulty, we estimated the effect on marathon times\nof wearing the Vaporfly shoes. Assuming that the effect of Vaporfly shoes is\nadditive, we estimate that the Vaporfly shoes improve men's times between 2.0\nand 3.9 minutes, while they improve women's times between 0.8 and 3.5 minutes.\nAssuming that the effect of Vaporfly shoes is multiplicative, we estimate that\nthey improve men's times between 1.4 and 2.8 percent and women's performances\nbetween 0.6 and 2.2 percent. The improvements are in comparison to the shoe the\nathlete was wearing before switching to Vaporfly shoes, and represents an\nexpected improvement rather than a guaranteed improvement.",
+        "link": "http://arxiv.org/abs/2002.06105v2",
+        "pdf_link": "http://arxiv.org/pdf/2002.06105v2"
+    },
+    "http://arxiv.org/abs/2002.02806v2": {
+        "title": "A Comprehensive Feature Comparison Study of Open-Source Container Orchestration Frameworks",
+        "authors": [
+            "Eddy Truyen",
+            "Dimitri Van Landuyt",
+            "Davy Preuveneers",
+            "Bert Lagaisse",
+            "Wouter Joosen"
+        ],
+        "abstract": "(1) Background: Container orchestration frameworks provide support for\nmanagement of complex distributed applications. Different frameworks have\nemerged only recently, and they have been in constant evolution as new features\nare being introduced. This reality makes it difficult for practitioners and\nresearchers to maintain a clear view of the technology space. (2) Methods: we\npresent a descriptive feature comparison study of the three most prominent\norchestration frameworks: Docker Swarm, Kubernetes, and Mesos, which can be\ncombined with Marathon, Aurora or DC/OS. This study aims at (i) identifying the\ncommon and unique features of all frameworks, (ii) comparing these frameworks\nqualitatively and quantitatively with respect to genericity in terms of\nsupported features, and (iii) investigating the maturity and stability of the\nframeworks as well as the pioneering nature of each framework by studying the\nhistorical evolution of the frameworks on GitHub. (3) Results: (i) we have\nidentified 124 common features and 54 unique features that we divided into a\ntaxonomy of 9 functional aspects and 27 functional sub-aspects. (ii) Kubernetes\nsupports the highest number of accumulated common and unique features for all 9\nfunctional aspects; however, no evidence has been found for significant\ndifferences in genericity with Docker Swarm and DC/OS. (iii) Very little\nfeature deprecations have been found and 15 out of 27 sub-aspects have been\nidentified as mature and stable. These are pioneered in descending order by\nKubernetes, Mesos, and Marathon. (4) Conclusion: there is a broad and mature\nfoundation that underpins all container orchestration frameworks. Likely areas\nfor further evolution and innovation include system support for improved\ncluster security and container security, performance isolation of GPU, disk and\nnetwork resources, and network plugin architectures.",
+        "link": "http://arxiv.org/abs/2002.02806v2",
+        "pdf_link": "http://arxiv.org/pdf/2002.02806v2"
+    },
+    "http://arxiv.org/abs/1909.02835v1": {
+        "title": "Running Event Visualization using Videos from Multiple Cameras",
+        "authors": [
+            "Yeshwanth Napolean",
+            "Priadi Teguh Wibowo",
+            "Jan van Gemert"
+        ],
+        "abstract": "Visualizing the trajectory of multiple runners with videos collected at\ndifferent points in a race could be useful for sports performance analysis. The\nvideos and the trajectories can also aid in athlete health monitoring. While\nthe runners unique ID and their appearance are distinct, the task is not\nstraightforward because the video data does not contain explicit information as\nto which runners appear in each of the videos. There is no direct supervision\nof the model in tracking athletes, only filtering steps to remove irrelevant\ndetections. Other factors of concern include occlusion of runners and harsh\nillumination. To this end, we identify two methods for runner identification at\ndifferent points of the event, for determining their trajectory. One is scene\ntext detection which recognizes the runners by detecting a unique 'bib number'\nattached to their clothes and the other is person re-identification which\ndetects the runners based on their appearance. We train our method without\nground truth but to evaluate the proposed methods, we create a ground truth\ndatabase which consists of video and frame interval information where the\nrunners appear. The videos in the dataset was recorded by nine cameras at\ndifferent locations during the a marathon event. This data is annotated with\nbib numbers of runners appearing in each video. The bib numbers of runners\nknown to occur in the frame are used to filter irrelevant text and numbers\ndetected. Except for this filtering step, no supervisory signal is used. The\nexperimental evidence shows that the scene text recognition method achieves an\nF1-score of 74. Combining the two methods, that is - using samples collected by\ntext spotter to train the re-identification model yields a higher F1-score of\n85.8. Re-training the person re-identification model with identified inliers\nyields a slight improvement in performance(F1 score of 87.8).",
+        "link": "http://arxiv.org/abs/1909.02835v1",
+        "pdf_link": "http://arxiv.org/pdf/1909.02835v1"
+    },
+    "http://arxiv.org/abs/1908.02223v4": {
+        "title": "Neutron valence structure from nuclear deep inelastic scattering",
+        "authors": [
+            "E. P. Segarra",
+            "A. Schmidt",
+            "T. Kutz",
+            "D. W. Higinbotham",
+            "E. Piasetzky",
+            "M. Strikman",
+            "L. B. Weinstein",
+            "O. Hen"
+        ],
+        "abstract": "Mechanisms of spin-flavor SU(6) symmetry breaking in Quantum Chromodynamics\n(QCD) are studied via an extraction of the free neutron structure function from\na global analysis of deep inelastic scattering (DIS) data on the proton and on\nnuclei from $A = 2$ (deuterium) to 208 (lead). Modification of the structure\nfunction of nucleons bound in atomic nuclei (known as the EMC effect) are\nconsistently accounted for within the framework of a universal modification of\nnucleons in short-range correlated (SRC) pairs. Our extracted neutron-to-proton\nstructure function ratio $F_2^n/F_2^p$ becomes constant for $x_B \\ge 0.6$,\nequalling $0.47 \\pm 0.04$ as $x_B \\rightarrow 1$, in agreement with theoretical\npredictions of perturbative QCD and the Dyson Schwinger equation, and in\ndisagreement with predictions of the Scalar Diquark dominance model. We also\npredict $F_2^{^3\\mathrm{He}}/F_2^{^3\\mathrm{H}}$, recently measured, yet\nunpublished, by the MARATHON collaboration, the nuclear correction function\nthat is needed to extract $F_2^n/F_2^p$ from\n$F_2^{^3\\mathrm{He}}/F_2^{^3\\mathrm{H}}$, and the theoretical uncertainty\nassociated with this extraction.",
+        "link": "http://arxiv.org/abs/1908.02223v4",
+        "pdf_link": "http://arxiv.org/pdf/1908.02223v4"
+    },
+    "http://arxiv.org/abs/1905.08388v1": {
+        "title": "Exploring the Fairness and Resource Distribution in an Apache Mesos Environment",
+        "authors": [
+            "Pankaj Saha",
+            "Angel Beltre",
+            "Madhusudhan Govindaraju"
+        ],
+        "abstract": "Apache Mesos, a cluster-wide resource manager, is widely deployed in massive\nscale at several Clouds and Data Centers. Mesos aims to provide high cluster\nutilization via fine grained resource co-scheduling and resource fairness among\nmultiple users through Dominant Resource Fairness (DRF) based allocation. DRF\ntakes into account different resource types (CPU, Memory, Disk I/O) requested\nby each application and determines the share of each cluster resource that\ncould be allocated to the applications. Mesos has adopted a two-level\nscheduling policy: (1) DRF to allocate resources to competing frameworks and\n(2) task level scheduling by each framework for the resources allocated during\nthe previous step. We have conducted experiments in a local Mesos cluster when\nused with frameworks such as Apache Aurora, Marathon, and our own framework\nScylla, to study resource fairness and cluster utilization. Experimental\nresults show how informed decision regarding second level scheduling policy of\nframeworks and attributes like offer holding period, offer refusal cycle and\ntask arrival rate can reduce unfair resource distribution. Bin-Packing\nscheduling policy on Scylla with Marathon can reduce unfair allocation from\n38\\% to 3\\%. By reducing unused free resources in offers we bring down the\nunfairness from to 90\\% to 28\\%. We also show the effect of task arrival rate\nto reduce the unfairness from 23\\% to 7\\%.",
+        "link": "http://arxiv.org/abs/1905.08388v1",
+        "pdf_link": "http://arxiv.org/pdf/1905.08388v1"
+    },
+    "http://arxiv.org/abs/1902.09097v1": {
+        "title": "Marathon Environments: Multi-Agent Continuous Control Benchmarks in a Modern Video Game Engine",
+        "authors": [
+            "Joe Booth",
+            "Jackson Booth"
+        ],
+        "abstract": "Recent advances in deep reinforcement learning in the paradigm of locomotion\nusing continuous control have raised the interest of game makers for the\npotential of digital actors using active ragdoll. Currently, the available\noptions to develop these ideas are either researchers' limited codebase or\nproprietary closed systems. We present Marathon Environments, a suite of open\nsource, continuous control benchmarks implemented on the Unity game engine,\nusing the Unity ML- Agents Toolkit. We demonstrate through these benchmarks\nthat continuous control research is transferable to a commercial game engine.\nFurthermore, we exhibit the robustness of these environments by reproducing\nadvanced continuous control research, such as learning to walk, run and\nbackflip from motion capture data; learning to navigate complex terrains; and\nby implementing a video game input control system. We show further robustness\nby training with alternative algorithms found in OpenAI.Baselines. Finally, we\nshare strategies for significantly reducing the training time.",
+        "link": "http://arxiv.org/abs/1902.09097v1",
+        "pdf_link": "http://arxiv.org/pdf/1902.09097v1"
+    },
+    "http://arxiv.org/abs/1902.04038v1": {
+        "title": "Deep Learning Methods for Event Verification and Image Repurposing Detection",
+        "authors": [
+            "M. Goebel",
+            "A. Flenner",
+            "L. Nataraj",
+            "B. S. Manjunath"
+        ],
+        "abstract": "The authenticity of images posted on social media is an issue of growing\nconcern. Many algorithms have been developed to detect manipulated images, but\nfew have investigated the ability of deep neural network based approaches to\nverify the authenticity of image labels, such as event names. In this paper, we\npropose several novel methods to predict if an image was captured at one of\nseveral noteworthy events. We use a set of images from several recorded events\nsuch as storms, marathons, protests, and other large public gatherings. Two\nstrategies of applying pre-trained Imagenet network for event verification are\npresented, with two modifications for each strategy. The first method uses the\nfeatures from the last convolutional layer of a pre-trained network as input to\na classifier. We also consider the effects of tuning the convolutional weights\nof the pre-trained network to improve classification. The second method\ncombines many features extracted from smaller scales and uses the output of a\npre-trained network as the input to a second classifier. For both methods, we\ninvestigated several different classifiers and tested many different\npre-trained networks. Our experiments demonstrate both these approaches are\neffective for event verification and image re-purposing detection. The\nclassification at the global scale tends to marginally outperform our tested\nlocal methods and fine tuning the network further improves the results.",
+        "link": "http://arxiv.org/abs/1902.04038v1",
+        "pdf_link": "http://arxiv.org/pdf/1902.04038v1"
+    },
+    "http://arxiv.org/abs/1811.12167v2": {
+        "title": "Density Changes in Low Pressure Gas Targets for Electron Scattering Experiments",
+        "authors": [
+            "S. N. Santiesteban",
+            "S. Alsalmi",
+            "D. Meekins",
+            "J. Bane",
+            "S. Barcus",
+            "J. Campbell",
+            "J. Castellanos",
+            "R. Cruz-Torres",
+            "H. Dai",
+            "T. Hague",
+            "F. Hauenstein",
+            "D. W. Higinbotham",
+            "R. J. Holt",
+            "T. Kutz",
+            "S. Li",
+            "H. Liu",
+            "R. E. McClellan",
+            "M. Nycz",
+            "D. Nguyen",
+            "B. Pandey",
+            "V. Pandey",
+            "A. Schmidt",
+            "T. Su",
+            "Z. Ye"
+        ],
+        "abstract": "A system of modular sealed gas target cells has been developed for use in\nelectron scattering experiments at the Thomas Jefferson National Accelerator\nFacility (Jefferson Lab). This system was initially developed to complete the\nMARATHON experiment which required, among other species, tritium as a target\nmaterial. Thus far, the cells have been loaded with the gas species 3H, 3He,\n2H, 1H and 40Ar and operated in nominal beam currents of up to 22.5 uA in\nJefferson Lab's Hall A. While the gas density of the cells at the time of\nloading is known, the density of each gas varies uniquely when heated by the\nelectron beam. To extract experimental cross sections using these cells,\ndensity dependence on beam current of each target fluid must be determined. In\nthis study, data from measurements with several beam currents within the range\nof 2.5 to 22.5 uA on each target fluid are presented. Additionally, expressions\nfor the beam current dependent fluid density of each target are developed.",
+        "link": "http://arxiv.org/abs/1811.12167v2",
+        "pdf_link": "http://arxiv.org/pdf/1811.12167v2"
+    },
+    "http://arxiv.org/abs/1811.07668v1": {
+        "title": "Deep-inelastic and quasielastic electron scattering from $A=3$ nuclei",
+        "authors": [
+            "A. J. Tropiano",
+            "J. J. Ethier",
+            "W. Melnitchouk",
+            "N. Sato"
+        ],
+        "abstract": "We perform a combined analysis of inclusive electron scattering data from\n$A=3$ nuclei in the deep-inelastic and quasielastic scattering regions, using\nMonte Carlo analysis methods and the nuclear weak binding approximation to\nestablish the range over which the data can be described within the same\ntheoretical framework. Comparison with quasielastic $^3$He cross sections from\nSLAC and Jefferson Lab suggests that most features of the $x \\gtrsim 1$ data\ncan be reasonably well described in the impulse approximation with finite-$Q^2$\nnuclear smearing functions for momentum transfers $Q^2 \\gtrsim 1$ GeV$^2$. For\nthe DIS region, we analyze the recent $^3$He to deuterium cross section ratio\nfrom the Jefferson Lab E03-103 experiment to explore the possible isospin\ndependence of the nuclear effects. We discuss the implications of this for the\nMARATHON experiment at Jefferson Lab, and outline how a Bayesian analysis of\n$^3$He, $^3$H and deuterium data can robustly determine the free neutron\nstructure function.",
+        "link": "http://arxiv.org/abs/1811.07668v1",
+        "pdf_link": "http://arxiv.org/pdf/1811.07668v1"
+    },
+    "http://arxiv.org/abs/1808.01050v1": {
+        "title": "Composition Loss for Counting, Density Map Estimation and Localization in Dense Crowds",
+        "authors": [
+            "Haroon Idrees",
+            "Muhmmad Tayyab",
+            "Kishan Athrey",
+            "Dong Zhang",
+            "Somaya Al-Maadeed",
+            "Nasir Rajpoot",
+            "Mubarak Shah"
+        ],
+        "abstract": "With multiple crowd gatherings of millions of people every year in events\nranging from pilgrimages to protests, concerts to marathons, and festivals to\nfunerals; visual crowd analysis is emerging as a new frontier in computer\nvision. In particular, counting in highly dense crowds is a challenging problem\nwith far-reaching applicability in crowd safety and management, as well as\ngauging political significance of protests and demonstrations. In this paper,\nwe propose a novel approach that simultaneously solves the problems of\ncounting, density map estimation and localization of people in a given dense\ncrowd image. Our formulation is based on an important observation that the\nthree problems are inherently related to each other making the loss function\nfor optimizing a deep CNN decomposable. Since localization requires\nhigh-quality images and annotations, we introduce UCF-QNRF dataset that\novercomes the shortcomings of previous datasets, and contains 1.25 million\nhumans manually marked with dot annotations. Finally, we present evaluation\nmeasures and comparison with recent deep CNN networks, including those\ndeveloped specifically for crowd counting. Our approach significantly\noutperforms state-of-the-art on the new dataset, which is the most challenging\ndataset with the largest number of crowd annotations in the most diverse set of\nscenes.",
+        "link": "http://arxiv.org/abs/1808.01050v1",
+        "pdf_link": "http://arxiv.org/pdf/1808.01050v1"
+    },
+    "http://arxiv.org/abs/1807.10595v1": {
+        "title": "A Minimal Power Model for Human Running Performance",
+        "authors": [
+            "Matthew Mulligan",
+            "Guillaume Adam",
+            "Thorsten Emig"
+        ],
+        "abstract": "Models for human running performances of various complexities and underlying\nprinciples have been proposed, often combining data from world record\nperformances and bio-energetic facts of human physiology. Here we present a\nnovel, minimal and universal model for human running performance that employs a\nrelative metabolic power scale. The main component is a self-consistency\nrelation for the time dependent maximal power output. The analytic approach\npresented here is the first to derive the observed logarithmic scaling between\nworld (and other) record running speeds and times from basic principles of\nmetabolic power supply. Various female and male record performances (world,\nnational) and also personal best performances of individual runners for\ndistances from 800m to the marathon are excellently described by this model,\nwith mean errors of (often much) less than 1%. The model defines endurance in a\nway that demonstrates symmetry between long and short racing events that are\nseparated by a characteristic time scale comparable to the time over which a\nrunner can sustain maximal oxygen uptake. As an application of our model, we\nderive personalized characteristic race speeds for different durations and\ndistances.",
+        "link": "http://arxiv.org/abs/1807.10595v1",
+        "pdf_link": "http://arxiv.org/pdf/1807.10595v1"
+    }
+}

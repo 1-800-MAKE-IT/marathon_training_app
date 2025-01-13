@@ -1,0 +1,47 @@
+2025-01-13 18:35:47,441 - INFO - Fetching papers for query: marathon, (max results: 10)
+2025-01-13 18:35:47,445 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:35:49,045 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:35:49,047 - INFO - Fetched 10 papers successfully.
+2025-01-13 18:35:49,050 - INFO - Saved fetched papers to data/academic_data.json. File size: 0.02 MB
+2025-01-13 18:43:36,849 - INFO - Fetching papers for query: marathon, (max results: 50)
+2025-01-13 18:43:36,849 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:43:38,344 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:43:38,346 - INFO - Fetched 50 papers successfully.
+2025-01-13 18:43:38,346 - INFO - Saved fetched papers to data/academic_data.json. File size: 0.09 MB
+2025-01-13 18:43:44,009 - INFO - Fetching papers for query: marathon, (max results: 50)
+2025-01-13 18:43:44,010 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:43:45,022 - INFO - Got first page: 28 of 73 total results
+2025-01-13 18:43:45,024 - INFO - Sleeping: 2.949879 seconds
+2025-01-13 18:43:46,770 - INFO - Fetching papers for query: marathon, (max results: 50)
+2025-01-13 18:43:46,772 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:43:47,810 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:43:47,813 - INFO - Fetched 50 papers successfully.
+2025-01-13 18:43:47,818 - INFO - Saved fetched papers to data/academic_data.json. File size: 0.09 MB
+2025-01-13 18:43:47,975 - INFO - Requesting page (first: False, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=28&max_results=100
+2025-01-13 18:43:48,453 - INFO - Fetched 50 papers successfully.
+2025-01-13 18:43:48,458 - INFO - Saved fetched papers to data/academic_data.json. File size: 0.09 MB
+2025-01-13 18:50:47,744 - INFO - Fetching papers for query: marathon, (max results: 10)
+2025-01-13 18:50:47,746 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:50:48,932 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:50:48,932 - INFO - Fetched 10 papers successfully.
+2025-01-13 18:50:48,947 - INFO - Saved fetched papers to data/academic_data.json. File size: 0.02 MB
+2025-01-13 18:50:55,171 - INFO - Fetching papers for query: marathon, (max results: 10)
+2025-01-13 18:50:55,171 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:50:56,223 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:50:56,225 - INFO - Fetched 10 papers successfully.
+2025-01-13 18:50:56,226 - INFO - Saved fetched papers to data/academic_data.json. File size: 0.02 MB
+2025-01-13 18:52:57,609 - INFO - Fetching papers for query: marathon, (max results: 10)
+2025-01-13 18:52:57,611 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:52:58,665 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:52:58,665 - INFO - Fetched 10 papers successfully.
+2025-01-13 18:52:58,665 - INFO - Saved fetched papers to data/academic_data.json. Updated directory size: 0.02 MB
+2025-01-13 18:53:00,762 - INFO - Fetching papers for query: marathon, (max results: 10)
+2025-01-13 18:53:00,765 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:53:01,782 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:53:01,798 - INFO - Fetched 10 papers successfully.
+2025-01-13 18:53:01,798 - INFO - Saved fetched papers to data/academic_data.json. Updated directory size: 0.02 MB
+2025-01-13 18:53:04,221 - INFO - Fetching papers for query: marathon, (max results: 50)
+2025-01-13 18:53:04,223 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon&id_list=&sortBy=submittedDate&sortOrder=descending&start=0&max_results=100
+2025-01-13 18:53:05,228 - INFO - Got first page: 73 of 73 total results
+2025-01-13 18:53:05,232 - INFO - Fetched 50 papers successfully.
+2025-01-13 18:53:05,236 - INFO - Saved fetched papers to data/academic_data.json. Updated directory size: 0.09 MB
