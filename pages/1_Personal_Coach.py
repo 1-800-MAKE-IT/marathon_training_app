@@ -1,9 +1,13 @@
 import streamlit as st
 import logging
 import base64
+from scripts.auth import login
+from scripts.auth import get_authenticator
 
 
 st.set_page_config(page_title="Personal Coach", page_icon="🤖")
+
+#____________________ PAGE CONFIG _____________________#
 
 # Function to encode the image as Base64
 @st.cache_data
@@ -39,6 +43,21 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # Load custom CSS for styling
 with open("styles/styles.css") as css_file:
     st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
+
+#____________________ PROMPT USER TO LOG IN _____________________#
+
+#prompt user to log in after style of page is loaded in 
+authenticator = get_authenticator()
+
+name, status, user = authenticator.login("Login", "main")
+if status:
+    st.success(f"Welcome {name}")
+elif status is False:
+    st.error("Invalid credentials")
+else:
+    st.warning("Enter login details")
+
+#____________________ CHATBOT FUNCTIONALITY  _____________________#
 
 # Chatbot Page
 st.title("Personal Coach")

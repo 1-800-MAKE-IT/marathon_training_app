@@ -7,3 +7,4 @@ arxiv
 PyPDF2
 sentence-transformers
 streamlit-authenticator
+pyyaml

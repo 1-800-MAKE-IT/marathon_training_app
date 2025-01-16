@@ -1,6 +1,9 @@
 import streamlit as st
 import logging
 import base64
+from scripts.auth import get_authenticator
+
+#____________________ PAGE CONFIG _____________________#
 
 st.set_page_config(page_title="Performance Entry", page_icon="📝")
 
@@ -38,6 +41,20 @@ page_bg_img = f"""
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
+#____________________ PROMPT USER TO LOG IN _____________________#
+
+#prompt user to log in after style of page is loaded in 
+authenticator = get_authenticator()
+
+name, status, user = authenticator.login("Login", "main")
+if status:
+    st.success(f"Welcome {name}")
+elif status is False:
+    st.error("Invalid credentials")
+else:
+    st.warning("Enter login details")
+
+#____________________ DATA ENTRY FUNCTIONALITY  _____________________#
 
 # Performance Entry Page
 st.title("Performance Entry")

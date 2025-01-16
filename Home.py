@@ -2,7 +2,10 @@ import streamlit as st
 import base64
 from scripts.arxiv_scraper import fetch_arxiv_papers, get_directory_size
 import logging
+from scripts.auth import get_authenticator
 
+
+#____________________ PAGE CONFIG ____________________#
 # Set up page configuration
 st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
@@ -41,6 +44,21 @@ page_bg_img = f"""
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
+#____________________ PROMPT USER TO LOGIN ____________________#
+
+authenticator = get_authenticator()
+
+name, status, user = authenticator.login("Login", "main")
+if status:
+    st.success(f"Welcome {name}")
+elif status is False:
+    st.error("Invalid credentials")
+else:
+    st.warning("Enter login details")
+
+#____________________ SHOW TITLE OF HOMEPAGE ____________________#
+
+
 # Main app title and description
 st.title("Marathon Training App")
 st.markdown("""
@@ -65,6 +83,9 @@ Fetch the latest marathon-related academic papers from arXiv and update the data
 current_size = get_directory_size("data")
 max_size_mb = 700
 st.info(f"Current Storage Usage: {current_size:.2f} MB / {max_size_mb} MB")
+
+
+#____________________ ALLOW USERS TO ADD NEWER RESEARCH ____________________#
 
 #allow users to add more papers
 num_papers = st.number_input("Number of papers to fetch:", min_value=1, max_value=50, value=10, step=1)
