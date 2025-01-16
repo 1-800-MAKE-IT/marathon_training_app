@@ -10,21 +10,25 @@ def get_authenticator():
     # Retrieve user credentials from secrets
     credentials = {
         "usernames": {
-            # Instead of emails, we’re using pure 'username' keys.
+
             "Harry": {
                 "name": "Harry",
+                "email": "placeholder",  # Placeholder email
                 "password": st.secrets["auth"]["users"]["Harry"]["password"]  # hashed password
             },
             "Ian": {
                 "name": "Ian",
+                "email": "placeholder",  # Placeholder email
                 "password": st.secrets["auth"]["users"]["Ian"]["password"] 
             },
             "Archie": {
                 "name": "Archie",
+                "email": "placeholder",  # Placeholder email
                 "password": st.secrets["auth"]["users"]["Archie"]["password"] 
             },
             "Guest": {
                 "name": "Guest",
+                "email": "placeholder",  # Placeholder email
                 "password": st.secrets["auth"]["users"]["Guest"]["password"] 
             }
         }
@@ -42,5 +46,5 @@ def get_authenticator():
         key=cookie_settings["key"],
         cookie_expiry_days=cookie_settings["expiry_days"]
     )
-    
+
     return authenticator

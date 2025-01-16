@@ -1,7 +1,6 @@
 import streamlit as st
 import logging
 import base64
-from scripts.auth import login
 from scripts.auth import get_authenticator
 
 
