@@ -48,15 +48,16 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 authenticator = get_authenticator()
 
-name, status, user = authenticator.login(location='main', fields={'form_name': 'Login'})
+authenticator.login('Login', 'main')
 
-if status:
-    st.success(f"Welcome {name}")
-elif status is False:
+if st.session_state['authentication_status']:
+    st.success(f"Welcome {st.session_state['name']}")
+    # Proceed with authenticated user actions
+elif st.session_state['authentication_status'] is False:
     st.error("Invalid credentials")
 else:
-    st.warning("Enter login details")
-
+    st.warning("Please enter your username and password")
+    
 #____________________ SHOW TITLE OF HOMEPAGE ____________________#
 
 

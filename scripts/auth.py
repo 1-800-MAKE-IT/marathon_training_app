@@ -42,4 +42,5 @@ def get_authenticator():
         key=cookie_settings["key"],
         cookie_expiry_days=cookie_settings["expiry_days"]
     )
+    
     return authenticator

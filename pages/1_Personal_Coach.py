@@ -46,11 +46,15 @@ with open("styles/styles.css") as css_file:
 
 #____________________ PROMPT USER TO LOG IN _____________________#
 
-if "authentication_status" not in st.session_state or not st.session_state["authentication_status"]:
+# Ensure authentication status is checked
+if "authentication_status" not in st.session_state or st.session_state["authentication_status"] is not True:
     st.error("Please log in first.")
     st.stop()
 
+# Protected content for authenticated users
+st.success(f"Welcome {st.session_state['name']}!")
 st.write("Protected content here.")
+
 #____________________ CHATBOT FUNCTIONALITY  _____________________#
 
 # Chatbot Page
