@@ -48,7 +48,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 authenticator = get_authenticator()
 
-authenticator.login('Login', 'main')
+authenticator.login(location='main', key='Login')
 
 if st.session_state['authentication_status']:
     st.success(f"Welcome {st.session_state['name']}")
@@ -57,7 +57,7 @@ elif st.session_state['authentication_status'] is False:
     st.error("Invalid credentials")
 else:
     st.warning("Please enter your username and password")
-    
+
 #____________________ SHOW TITLE OF HOMEPAGE ____________________#
 
 
