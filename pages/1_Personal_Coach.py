@@ -46,17 +46,11 @@ with open("styles/styles.css") as css_file:
 
 #____________________ PROMPT USER TO LOG IN _____________________#
 
-#prompt user to log in after style of page is loaded in 
-authenticator = get_authenticator()
+if "authentication_status" not in st.session_state or not st.session_state["authentication_status"]:
+    st.error("Please log in first.")
+    st.stop()
 
-name, status, user = authenticator.login("Login", "main")
-if status:
-    st.success(f"Welcome {name}")
-elif status is False:
-    st.error("Invalid credentials")
-else:
-    st.warning("Enter login details")
-
+st.write("Protected content here.")
 #____________________ CHATBOT FUNCTIONALITY  _____________________#
 
 # Chatbot Page
