@@ -48,7 +48,8 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 authenticator = get_authenticator()
 
-name, status, user = authenticator.login('Login', 'main')
+name, status, user = authenticator.login(location='main', fields={'form_name': 'Login'})
+
 if status:
     st.success(f"Welcome {name}")
 elif status is False:
