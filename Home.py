@@ -51,8 +51,58 @@ authenticator = get_authenticator()
 authenticator.login(location='main', key='Login')
 
 if st.session_state['authentication_status']:
+    
     st.success(f"Welcome {st.session_state['name']}")
     # Proceed with authenticated user actions
+
+        
+    # Main app title and description
+    st.title("Marathon Training App")
+    st.markdown("""
+    An AI-powered tool to help you plan, track, and optimize your marathon training journey!
+    """)
+    st.markdown("""
+    **IMPORTANT NOTE:** Please do not enter ANY sensitive data or Personally Identifiable Information (PII). Use a fully anonymized username when prompted.
+    """)
+
+    st.markdown("""
+    Use the sidebar to navigate:
+    - **Personal Coach**: Ask questions and get insights.
+    - **Performance Entry**: Log your training progress.
+    """)
+
+    st.title("Update Academic Research")
+    st.markdown("""
+    Fetch the latest marathon-related academic papers from arXiv and update the database.
+    """)
+
+    # Display current storage usage
+    current_size = get_directory_size("data")
+    max_size_mb = 700
+    st.info(f"Current Storage Usage: {current_size:.2f} MB / {max_size_mb} MB")
+
+
+    #____________________ ALLOW USERS TO ADD NEWER RESEARCH ____________________#
+
+    #allow users to add more papers
+    num_papers = st.number_input("Number of papers to fetch:", min_value=1, max_value=50, value=10, step=1)
+
+    # Add a button to trigger the scraper
+    if st.button("Update Academic Data"):
+        try:
+            papers, updated_size = fetch_arxiv_papers(max_results=num_papers)
+            if papers is None:
+                st.warning(f"Storage limit reached. No new data fetched. Current usage: {current_size:.2f} MB.")
+            else:
+                st.success(f"Successfully fetched {len(papers)} papers.")
+                st.info(f"Updated Storage Usage: {updated_size:.2f} MB / {max_size_mb} MB")
+        except ValueError as ve:
+            st.error("Unexpected return values from fetch_arxiv_papers.")
+            logging.error(f"ValueError: {ve}")
+        except Exception as e:
+            st.error(f"An error occurred: {e}")
+            logging.error(f"Exception: {e}")
+            
 elif st.session_state['authentication_status'] is False:
     st.error("Invalid credentials")
 else:
@@ -60,50 +110,3 @@ else:
 
 #____________________ SHOW TITLE OF HOMEPAGE ____________________#
 
-
-# Main app title and description
-st.title("Marathon Training App")
-st.markdown("""
-An AI-powered tool to help you plan, track, and optimize your marathon training journey!
-""")
-st.markdown("""
-**IMPORTANT NOTE:** Please do not enter ANY sensitive data or Personally Identifiable Information (PII). Use a fully anonymized username when prompted.
-""")
-
-st.markdown("""
-Use the sidebar to navigate:
-- **Personal Coach**: Ask questions and get insights.
-- **Performance Entry**: Log your training progress.
-""")
-
-st.title("Update Academic Research")
-st.markdown("""
-Fetch the latest marathon-related academic papers from arXiv and update the database.
-""")
-
-# Display current storage usage
-current_size = get_directory_size("data")
-max_size_mb = 700
-st.info(f"Current Storage Usage: {current_size:.2f} MB / {max_size_mb} MB")
-
-
-#____________________ ALLOW USERS TO ADD NEWER RESEARCH ____________________#
-
-#allow users to add more papers
-num_papers = st.number_input("Number of papers to fetch:", min_value=1, max_value=50, value=10, step=1)
-
-# Add a button to trigger the scraper
-if st.button("Update Academic Data"):
-    try:
-        papers, updated_size = fetch_arxiv_papers(max_results=num_papers)
-        if papers is None:
-            st.warning(f"Storage limit reached. No new data fetched. Current usage: {current_size:.2f} MB.")
-        else:
-            st.success(f"Successfully fetched {len(papers)} papers.")
-            st.info(f"Updated Storage Usage: {updated_size:.2f} MB / {max_size_mb} MB")
-    except ValueError as ve:
-        st.error("Unexpected return values from fetch_arxiv_papers.")
-        logging.error(f"ValueError: {ve}")
-    except Exception as e:
-        st.error(f"An error occurred: {e}")
-        logging.error(f"Exception: {e}")
