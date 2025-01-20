@@ -105,7 +105,6 @@ if st.session_state['authentication_status']:
             papers = fetch_arxiv_papers(
                 query="marathon training",
                 max_results=num_papers,
-                save_dir="data/papers",
                 max_storage_mb=max_size_mb
             )
 
