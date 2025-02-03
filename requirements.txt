@@ -9,3 +9,4 @@ sentence-transformers
 streamlit-authenticator
 pyyaml
 langchain
+langchain_community
