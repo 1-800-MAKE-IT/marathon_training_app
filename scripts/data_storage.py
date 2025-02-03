@@ -1,4 +1,5 @@
 import logging
+from langchain.document_loaders import DirectoryLoader
 
 logging.basicConfig(
     level=logging.INFO,
@@ -8,3 +9,11 @@ logging.basicConfig(
         logging.StreamHandler()         # Print logs to console
     ]
 )
+
+def load_documents():
+    """
+    Load documents into Document datatype in langchain. document also includes metadata
+
+    Returns:
+
+    """

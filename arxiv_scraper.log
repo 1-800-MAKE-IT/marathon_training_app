@@ -45,3 +45,108 @@
 2025-01-13 18:53:05,228 - INFO - Got first page: 73 of 73 total results
 2025-01-13 18:53:05,232 - INFO - Fetched 50 papers successfully.
 2025-01-13 18:53:05,236 - INFO - Saved fetched papers to data/academic_data.json. Updated directory size: 0.09 MB
+2025-02-03 22:47:45,454 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon+training&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-02-03 22:47:47,546 - INFO - Got first page: 100 of 185964 total results
+2025-02-03 22:47:48,189 - INFO - Downloaded paper: Marathon Environments: Multi-Agent Continuous Control Benchmarks in a Modern Video Game Engine
+2025-02-03 22:47:48,311 - INFO - Downloaded paper: Marathon pacing and elevation change
+2025-02-03 22:47:48,772 - INFO - Downloaded paper: Influence of advanced footwear technology on sub-2 hour marathon and other top running performances
+2025-02-03 22:47:48,871 - INFO - Downloaded paper: Multifractal analysis of physiological data from marathon runners
+2025-02-03 22:47:48,894 - INFO - Downloaded paper: Marathon: A Race Through the Realm of Long Context with Large Language Models
+2025-02-03 22:47:48,999 - INFO - Downloaded paper: Altitude Training: Strong Bounds for Single-Layer Dropout
+2025-02-03 22:47:49,431 - INFO - Downloaded paper: Deep Learning Methods for Event Verification and Image Repurposing Detection
+2025-02-03 22:47:49,569 - INFO - Downloaded paper: Making up for the deficit in a marathon run
+2025-02-03 22:47:49,816 - INFO - Downloaded paper: Against negative splitting: the case for alternative pacing strategies for elite marathon athletes in official events
+2025-02-03 22:47:50,155 - INFO - Downloaded paper: Multiple change point detection in functional data with applications to biomechanical fatigue data
+2025-02-03 22:49:24,502 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon+training&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-02-03 22:49:25,804 - INFO - Got first page: 100 of 185964 total results
+2025-02-03 22:49:25,804 - INFO - Paper 1902.09097v1 already downloaded. Skipping.
+2025-02-03 22:49:25,804 - INFO - Paper 1205.0057v2 already downloaded. Skipping.
+2025-02-03 22:49:25,804 - INFO - Paper 2104.08509v2 already downloaded. Skipping.
+2025-02-03 22:49:25,805 - INFO - Paper 2206.08140v2 already downloaded. Skipping.
+2025-02-03 22:49:25,805 - INFO - Paper 2312.09542v2 already downloaded. Skipping.
+2025-02-03 22:49:25,805 - INFO - Paper 1407.3289v2 already downloaded. Skipping.
+2025-02-03 22:49:25,805 - INFO - Paper 1902.04038v1 already downloaded. Skipping.
+2025-02-03 22:49:25,805 - INFO - Paper 1705.03302v1 already downloaded. Skipping.
+2025-02-03 22:49:25,806 - INFO - Paper 2311.08645v1 already downloaded. Skipping.
+2025-02-03 22:49:25,806 - INFO - Paper 2312.11108v3 already downloaded. Skipping.
+2025-02-03 22:51:13,284 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon+training&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-02-03 22:51:14,492 - INFO - Got first page: 100 of 185964 total results
+2025-02-03 22:51:14,492 - INFO - Paper 1902.09097v1 already downloaded. Skipping.
+2025-02-03 22:51:14,492 - INFO - Paper 1205.0057v2 already downloaded. Skipping.
+2025-02-03 22:51:14,493 - INFO - Paper 2104.08509v2 already downloaded. Skipping.
+2025-02-03 22:51:14,493 - INFO - Paper 2206.08140v2 already downloaded. Skipping.
+2025-02-03 22:51:14,493 - INFO - Paper 2312.09542v2 already downloaded. Skipping.
+2025-02-03 22:51:14,493 - INFO - Paper 1407.3289v2 already downloaded. Skipping.
+2025-02-03 22:51:14,493 - INFO - Paper 1902.04038v1 already downloaded. Skipping.
+2025-02-03 22:51:14,494 - INFO - Paper 1705.03302v1 already downloaded. Skipping.
+2025-02-03 22:51:14,494 - INFO - Paper 2311.08645v1 already downloaded. Skipping.
+2025-02-03 22:51:14,494 - INFO - Paper 2312.11108v3 already downloaded. Skipping.
+2025-02-03 22:51:42,994 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon+training&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-02-03 22:51:44,173 - INFO - Got first page: 100 of 185964 total results
+2025-02-03 22:51:44,173 - INFO - Paper 1902.09097v1 already downloaded. Skipping.
+2025-02-03 22:51:44,174 - INFO - Paper 1205.0057v2 already downloaded. Skipping.
+2025-02-03 22:51:44,174 - INFO - Paper 2104.08509v2 already downloaded. Skipping.
+2025-02-03 22:51:44,174 - INFO - Paper 2206.08140v2 already downloaded. Skipping.
+2025-02-03 22:51:44,174 - INFO - Paper 2312.09542v2 already downloaded. Skipping.
+2025-02-03 22:51:44,174 - INFO - Paper 1407.3289v2 already downloaded. Skipping.
+2025-02-03 22:51:44,175 - INFO - Paper 1902.04038v1 already downloaded. Skipping.
+2025-02-03 22:51:44,175 - INFO - Paper 1705.03302v1 already downloaded. Skipping.
+2025-02-03 22:51:44,175 - INFO - Paper 2311.08645v1 already downloaded. Skipping.
+2025-02-03 22:51:44,175 - INFO - Paper 2312.11108v3 already downloaded. Skipping.
+2025-02-03 22:51:44,782 - INFO - Downloaded paper: A review of univariate and multivariate multifractal analysis illustrated by the analysis of marathon runners physiological data
+2025-02-03 22:51:47,633 - INFO - Downloaded paper: Records from the S-Matrix Marathon: Schwinger-Keldysh Formalism
+2025-02-03 22:51:47,722 - INFO - Downloaded paper: Multifractal Analysis of Physiological Signals: A Novel Approach to Optimizing Pacing Strategy in a Pilot Study
+2025-02-03 22:51:49,266 - INFO - Downloaded paper: Running Event Visualization using Videos from Multiple Cameras
+2025-02-03 22:51:51,388 - INFO - Downloaded paper: A New Unified Method for Detecting Text from Marathon Runners and Sports Players in Video
+2025-02-03 22:51:51,502 - INFO - Downloaded paper: An Observational Study of the Effect of Nike Vaporfly Shoes on Marathon Performance
+2025-02-03 22:51:51,615 - INFO - Downloaded paper: Isovector EMC effect from global QCD analysis with MARATHON data
+2025-02-03 22:51:52,191 - INFO - Downloaded paper: Impact of the MARATHON data on \texorpdfstring{$F_{2n}/F_{2p}$}{F2n/F2p} and off-shell effects in light nuclei
+2025-02-03 22:51:52,370 - INFO - Downloaded paper: The Developers' Design Thinking Toolbox in Hackathons: A Study on the Recurring Design Methods in Software Development Marathons
+2025-02-03 22:51:52,773 - INFO - Downloaded paper: Pacer and Runner: Cooperative Learning Framework between Single- and Cross-Domain Sequential Recommendation
+2025-02-03 22:51:53,026 - INFO - Downloaded paper: Marathon: An open source software library for the analysis of Markov-Chain Monte Carlo algorithms
+2025-02-03 22:51:53,130 - INFO - Downloaded paper: Crowding at the Front of the Marathon Packs
+2025-02-03 22:51:53,411 - INFO - Downloaded paper: From Drivers to Athletes -- Modeling and Simulating Cross-Country Sking Marathons
+2025-02-03 22:51:54,109 - INFO - Downloaded paper: Crowd Flow Modeling of Athletes in Mass Sports Events -- a Macroscopic Approach
+2025-02-03 22:51:54,203 - INFO - Downloaded paper: Rapid Assessment of Damaged Homes in the Florida Keys after Hurricane Irma
+2025-02-03 22:51:55,674 - INFO - Downloaded paper: The Marathon 2: A Navigation System
+2025-02-03 22:51:56,315 - INFO - Downloaded paper: Running the COVID-19 marathon: the behavioral adaptations in mobility and facemask over 27 weeks of pandemic in Seoul, South Korea
+2025-02-03 22:51:56,495 - INFO - Downloaded paper: How to Catch Marathon Cheaters: New Approximation Algorithms for Tracking Paths
+2025-02-03 22:51:56,771 - INFO - Downloaded paper: Category Theory for Autonomous Robots: The Marathon 2 Use Case
+2025-02-03 22:51:57,109 - INFO - Downloaded paper: Records from the S-Matrix Marathon: Tasty Bits of Several Complex Variables
+2025-02-03 22:51:57,882 - INFO - Downloaded paper: Records from the S-Matrix Marathon: Gravitational Physics from Scattering Amplitudes
+2025-02-03 22:52:11,180 - INFO - Downloaded paper: Heuristics2Annotate: Efficient Annotation of Large-Scale Marathon Dataset For Bounding Box Regression
+2025-02-03 22:52:11,355 - INFO - Downloaded paper: The Shape of Infinity
+2025-02-03 22:52:11,439 - INFO - Downloaded paper: Real-Time Web Scale Event Summarization Using Sequential Decision Making
+2025-02-03 22:52:12,472 - INFO - Downloaded paper: The Robot Household Marathon Experiment
+2025-02-03 22:52:12,784 - INFO - Downloaded paper: Two remarks on asymptotically log Fano pairs
+2025-02-03 22:52:12,884 - INFO - Downloaded paper: Exploring the Fairness and Resource Distribution in an Apache Mesos Environment
+2025-02-03 22:52:15,651 - INFO - Downloaded paper: #StayHome or #Marathon? Social Media Enhanced Pandemic Surveillance on Spatial-temporal Dynamic Graphs
+2025-02-03 22:52:15,751 - INFO - Downloaded paper: Records from the S-Matrix Marathon: Observables in Expanding Universes
+2025-02-03 22:52:16,327 - INFO - Downloaded paper: Records from the S-Matrix Marathon: A Timeless History of Time
+2025-02-03 22:52:18,336 - INFO - Downloaded paper: Broker Bots: Analyzing automated activity during High Impact Events on Twitter
+2025-02-03 22:52:18,989 - INFO - Downloaded paper: On the records
+2025-02-03 22:52:22,532 - INFO - Downloaded paper: A Comprehensive Feature Comparison Study of Open-Source Container Orchestration Frameworks
+2025-02-03 22:52:22,907 - INFO - Downloaded paper: Nucleon off-shell structure and the free neutron valence structure from A=3 inclusive electron scattering measurements
+2025-02-03 22:52:22,990 - INFO - Downloaded paper: The energy cost of protein messages lead to a new protein information law
+2025-02-03 22:52:23,400 - INFO - Downloaded paper: Detecting changes in the fluctuations of a Gaussian process and an application to heartbeat time series
+2025-02-03 22:52:23,738 - INFO - Downloaded paper: Estimation non-paramétrique de la densité spectrale d'un processus gaussien échantillonné aléatoirement
+2025-02-03 22:52:24,230 - INFO - Downloaded paper: Crowd Saliency Detection via Global Similarity Structure
+2025-02-03 22:52:25,795 - INFO - Downloaded paper: Transport anomalies and quantum criticality in electron-doped cuprate superconductors
+2025-02-03 22:52:27,432 - INFO - Downloaded paper: Learning Dynamic Robot-to-Human Object Handover from Human Feedback
+2025-02-03 22:52:27,574 - INFO - Downloaded paper: Measuring and Modelling Crowd Flows - Fusing Stationary and Tracking Data
+2025-02-03 22:52:28,580 - INFO - Downloaded paper: Information spreading during emergencies and anomalous events
+2025-02-03 22:52:29,468 - INFO - Downloaded paper: Deep-inelastic and quasielastic electron scattering from $A=3$ nuclei
+2025-02-03 22:52:29,557 - INFO - Downloaded paper: Off-shell effects in bound nucleons and parton distributions from $^1$H, $^2$H, $^3$H and $^3$He data
+2025-02-03 22:52:30,377 - INFO - Downloaded paper: A Minimal Power Model for Human Running Performance
+2025-02-03 22:52:30,566 - INFO - Downloaded paper: Wavelet Shrinkage in Nonparametric Regression Models with Positive Noise
+2025-02-03 22:52:30,759 - INFO - Downloaded paper: Optimally Controlling Nutrition and Propulsion Force in a Long Distance Running Race
+2025-02-03 22:52:33,222 - INFO - Downloaded paper: Polarised crowd in motion: insights into statistical and dynamical behavior
+2025-02-03 22:52:33,315 - INFO - Downloaded paper: Off-shell modifications of bound nucleons and parton distributions
+2025-02-03 22:52:33,569 - INFO - Downloaded paper: Large-Area Emergency Lockdowns with Automated Driving Systems
+2025-02-03 22:52:33,987 - INFO - Downloaded paper: Effectiveness of conditional punishment for the evolution of public cooperation
+2025-02-03 22:52:34,634 - INFO - Downloaded paper: Balancing Novelty and Salience: Adaptive Learning to Rank Entities for Timeline Summarization of High-impact Events
+2025-02-03 22:52:34,968 - INFO - Downloaded paper: Composition Loss for Counting, Density Map Estimation and Localization in Dense Crowds
+2025-02-03 22:52:38,167 - INFO - Downloaded paper: Density Changes in Low Pressure Gas Targets for Electron Scattering Experiments
+2025-02-03 22:52:38,616 - INFO - Downloaded paper: Neutron valence structure from nuclear deep inelastic scattering
+2025-02-03 22:52:38,704 - INFO - Downloaded paper: QCD Hidden-Color Hexa-diquark in the Central Core of Nuclei
+2025-02-03 22:52:59,323 - INFO - Downloaded paper: Aerodynamic effects and performance improvements of running in drafting formations
