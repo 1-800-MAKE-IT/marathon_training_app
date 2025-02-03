@@ -52,3 +52,16 @@ def split_text() -> List[Document] :
     logging.info(f'''Downloaded {len(documents)} documents and split into {len(chunks)}. Chunk_size was {chunk_size} and chunk overlap {chunk_overlap}''')
 
     return chunks
+
+def save_to_chroma() -> int :
+    
+    
+    chroma_path : str = "data/chroma"
+
+
+    logging.info(f'''Created and populated chroma db at path {chroma_path} ''')
+
+    
+
+
+    return 1
