@@ -10,3 +10,4 @@ streamlit-authenticator
 pyyaml
 langchain
 langchain_community
+langchain_openai
