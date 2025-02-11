@@ -6,6 +6,7 @@ from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 import openai 
+import streamlit as st
 from dotenv import load_dotenv
 import os
 import shutil
@@ -21,7 +22,7 @@ logging.basicConfig(
     ]
 )
 
-def load_documents(data_path: str = "data/PDFs") -> list[Document] :
+def load_documents(data_path: str = "data/PDFs") -> list[Document]:
     """
     Load documents into Document datatype in langchain. Document also includes metadata.
     TO DO - add additional metadata from json file.
@@ -35,11 +36,11 @@ def load_documents(data_path: str = "data/PDFs") -> list[Document] :
     loader = DirectoryLoader(data_path, glob="*.pdf")
     documents: list[Document] = loader.load()
     
-    logging.info(f'''Downloaded documents with metadata: {documents.metadata}''')
+    logging.info(f"Downloaded {len(documents)} documents with metadata.")
 
     return documents
 
-def split_text() -> list[Document] :
+def split_text() -> list[Document]:
     """
     Gets chunks from documents
     """
@@ -57,27 +58,36 @@ def split_text() -> list[Document] :
 
     chunks: list[Document] = text_splitter.split_documents(documents)
 
-    logging.info(f'''Downloaded {len(documents)} documents and split into {len(chunks)}. Chunk_size was {chunk_size} and chunk overlap {chunk_overlap}''')
+    logging.info(f"Downloaded {len(documents)} documents and split into {len(chunks)}. Chunk size: {chunk_size}, overlap: {chunk_overlap}")
 
     return chunks
 
-def save_to_chroma(chunks : list[Document]) -> int :
+def save_to_chroma(chunks: list[Document]) -> int:
     """
-    Creates chroma DB and saves chunks from documents
+    Creates ChromaDB and saves chunks from documents.
     """
 
-    chroma_path : str = "data/chroma"
+    chroma_path: str = "data/chroma"
 
     if os.path.exists(chroma_path):
         shutil.rmtree(chroma_path)
 
-    logging.info(f'''Created and populated chroma db at path {chroma_path} ''')
+    logging.info(f"Created and populated ChromaDB at path {chroma_path}")
+
+    # Retrieve OpenAI API key from Streamlit secrets
+    openai_api_key = st.secrets["OPENAI"]["OPENAI_API_KEY"]
+
+    # Ensure API key is set as an environment variable 
+    os.environ["OPENAI_API_KEY"] = openai_api_key
+
+    # Initialize OpenAI embeddings
+    openai_embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
     db = Chroma.from_documents(
-        chunks, OpenAIEmbeddings(), persist_directory=chroma_path
+        chunks, openai_embeddings, persist_directory=chroma_path
     )
 
-    #save database
+    # Save database
     db.persist()
 
     logging.info(f"Saved {len(chunks)} chunks to {chroma_path}.")
