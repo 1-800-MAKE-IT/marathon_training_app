@@ -26,7 +26,7 @@ body {
 .title {
     font-family: Georgia, serif;
     font-size: 3em;
-    color: #ffffff;
+    color: #333; /* Changed from white to dark for better visibility */
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
     margin-top: 20px;
