@@ -2,7 +2,7 @@ import streamlit as st
 import logging
 import base64
 from scripts.auth import get_authenticator
-
+from typing import Any
 
 st.set_page_config(page_title="Personal Coach", page_icon="🤖")
 
@@ -10,16 +10,16 @@ st.set_page_config(page_title="Personal Coach", page_icon="🤖")
 
 # Function to encode the image as Base64
 @st.cache_data
-def get_img_as_base64(file_path):
+def get_img_as_base64(file_path: str) -> str:
     with open(file_path, "rb") as f:
-        data = f.read()
+        data: bytes = f.read()
     return base64.b64encode(data).decode()
 
 # Encode the background image
-img = get_img_as_base64("styles/6xfSTbbCWr4WJTCdnRwiVT.jpg")
+img: str = get_img_as_base64("styles/6xfSTbbCWr4WJTCdnRwiVT.jpg")
 
 # Apply the background image via CSS
-page_bg_img = f"""
+page_bg_img: str = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
     background: linear-gradient(
@@ -43,6 +43,25 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 with open("styles/styles.css") as css_file:
     st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
+# Additional inline CSS to force font color to black and input boxes to be white
+st.markdown(
+    """
+    <style>
+    /* Force all text to be black */
+    * {
+        color: black !important;
+    }
+    /* Style input boxes, text areas, and select elements */
+    input, textarea, select {
+        background-color: white !important;
+        color: black !important;
+        border: 1px solid #ccc;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 #____________________ PROMPT USER TO LOG IN _____________________#
 
 # Ensure authentication status is checked
@@ -60,9 +79,9 @@ st.write("Protected content here.")
 st.title("Personal Coach")
 st.write("Ask me your training-related questions!")
 
-query = st.text_input("Enter your question:")
+query: str = st.text_input("Enter your question:")
 
 if st.button("Submit Query"):
     logging.info(f"User queried: {query}")
-    response = "Response placeholder"  # TODO: Connect to chatbot logic
+    response: str = "Response placeholder"  # TODO: Connect to chatbot logic
     st.write(response)

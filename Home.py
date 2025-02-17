@@ -3,6 +3,7 @@ import base64
 from scripts.arxiv_scraper import fetch_arxiv_papers, get_directory_size
 import logging
 from scripts.auth import get_authenticator
+from typing import Any, List
 
 # ========================
 # 1. Page Configuration
@@ -11,25 +12,44 @@ from scripts.auth import get_authenticator
 st.set_page_config(page_title="Home", page_icon="🏠", layout="wide")
 
 # Load a custom CSS file for styling the page
-def load_css():
+def load_css() -> None:
     with open("styles/styles.css") as css_file:
         st.markdown(f"<style>{css_file.read()}</style>", unsafe_allow_html=True)
 
 load_css()
+
+# Additional inline CSS to force font color to black and input boxes to be white
+st.markdown(
+    """
+    <style>
+    /* Force all text to be black */
+    * {
+        color: black !important;
+    }
+    /* Style input boxes, text areas, and select elements */
+    input, textarea, select {
+        background-color: white !important;
+        color: black !important;
+        border: 1px solid #ccc;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # ========================
 # 2. Set Background Image
 # ========================
 # Function to encode the background image to Base64 format
 @st.cache_data
-def get_img_as_base64(file_path):
+def get_img_as_base64(file_path: str) -> str:
     with open(file_path, "rb") as f:
-        data = f.read()
+        data: bytes = f.read()
     return base64.b64encode(data).decode()
 
 # Encode and apply the background image
-img = get_img_as_base64("styles/6xfSTbbCWr4WJTCdnRwiVT.jpg")
-page_bg_img = f"""
+img: str = get_img_as_base64("styles/6xfSTbbCWr4WJTCdnRwiVT.jpg")
+page_bg_img: str = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
     background: linear-gradient(
@@ -53,7 +73,7 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 # 3. Login Authentication
 # ========================
 # Initialize the authenticator and prompt the user to log in
-authenticator = get_authenticator()
+authenticator: Any = get_authenticator()
 authenticator.login(location='main', key='Login')
 
 # Handle different authentication states
@@ -89,12 +109,12 @@ if st.session_state['authentication_status']:
     """)
 
     # Display current storage usage
-    current_size = get_directory_size("data")
-    max_size_mb = 700
+    current_size: float = get_directory_size("data")
+    max_size_mb: int = 700
     st.info(f"Current Storage Usage: {current_size:.2f} MB / {max_size_mb} MB")
 
     # Input for the number of papers to fetch
-    num_papers = st.number_input(
+    num_papers: int = st.number_input(
         "Number of papers to fetch:", min_value=1, max_value=50, value=10, step=1
     )
 
@@ -102,7 +122,7 @@ if st.session_state['authentication_status']:
     if st.button("Update Academic Data"):
         try:
             # Fetch papers using the fetch_arxiv_papers function
-            papers = fetch_arxiv_papers(
+            papers: List[Any] = fetch_arxiv_papers(
                 query="marathon training",
                 max_results=num_papers,
                 max_storage_mb=max_size_mb
@@ -115,7 +135,7 @@ if st.session_state['authentication_status']:
                 )
             else:
                 st.success(f"Successfully fetched {len(papers)} papers.")
-                updated_size = get_directory_size("data/papers")
+                updated_size: float = get_directory_size("data/papers")
                 st.info(f"Updated Storage Usage: {updated_size:.2f} MB / {max_size_mb} MB")
 
         except Exception as e:

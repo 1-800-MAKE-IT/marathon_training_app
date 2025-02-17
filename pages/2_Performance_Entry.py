@@ -2,6 +2,7 @@ import streamlit as st
 import logging
 import base64
 from scripts.auth import get_authenticator
+from typing import Any
 
 #____________________ PAGE CONFIG _____________________#
 
@@ -13,16 +14,16 @@ with open("styles/styles.css") as css_file:
 
 # Function to encode the image as Base64
 @st.cache_data
-def get_img_as_base64(file_path):
+def get_img_as_base64(file_path: str) -> str:
     with open(file_path, "rb") as f:
-        data = f.read()
+        data: bytes = f.read()
     return base64.b64encode(data).decode()
 
 # Encode the background image
-img = get_img_as_base64("styles/6xfSTbbCWr4WJTCdnRwiVT.jpg")
+img: str = get_img_as_base64("styles/6xfSTbbCWr4WJTCdnRwiVT.jpg")
 
 # Apply the background image via CSS
-page_bg_img = f"""
+page_bg_img: str = f"""
 <style>
 [data-testid="stAppViewContainer"] {{
     background: linear-gradient(
@@ -41,6 +42,26 @@ page_bg_img = f"""
 </style>
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+# Additional inline CSS to force font color to black and input boxes to be white
+st.markdown(
+    """
+    <style>
+    /* Force all text to be black */
+    * {
+        color: black !important;
+    }
+    /* Style input boxes, text areas, and select elements */
+    input, textarea, select {
+        background-color: white !important;
+        color: black !important;
+        border: 1px solid #ccc;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 #____________________ PROMPT USER TO LOG IN _____________________#
 
 # Ensure authentication status is checked
@@ -58,12 +79,12 @@ st.write("Protected content here.")
 st.title("Performance Entry")
 st.write("Log your recent training performance.")
 
-user = st.text_input("Username:")
-distance = st.text_input("Distance (e.g., 10km):")
-time = st.text_input("Time (e.g., 55:00):")
-condition = st.text_input("Condition (e.g., Sunny):")
-injuries = st.text_input("Injuries (if any):")
-notes = st.text_area("Notes:")
+user: str = st.text_input("Username:")
+distance: str = st.text_input("Distance (e.g., 10km):")
+time: str = st.text_input("Time (e.g., 55:00):")
+condition: str = st.text_input("Condition (e.g., Sunny):")
+injuries: str = st.text_input("Injuries (if any):")
+notes: str = st.text_area("Notes:")
 
 if st.button("Save Data"):
     logging.info(f"Attempting to save data for user: {user}")
