@@ -6,10 +6,20 @@ body {
     padding: 0;
 }
 
-/* Specific styles for Streamlit's app container */
+/* Specific styles for Streamlit's app container with background image */
 [data-testid="stAppViewContainer"] {
-    /* Background styling applied programmatically in Python */
-    background-color: transparent; /* Ensures no conflicts with background image */
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url("{{bg_img}}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* Title styling */
@@ -17,7 +27,7 @@ body {
     font-family: Georgia, serif;
     font-size: 3em;
     color: #ffffff;
-    text-shadow: 2px 2px 4px #000000; /* Adds shadow for better visibility */
+    text-shadow: 2px 2px 4px #000000;
     text-align: center;
     margin-top: 20px;
 }
@@ -33,30 +43,30 @@ body {
 
 /* Sidebar styling - now lighter */
 [data-testid="stSidebar"] {
-    background-color: rgba(255, 255, 255, 0.621); /* Light semi-transparent background */
-    color: #333; /* Dark text for better contrast on light background */
+    background-color: rgba(255, 255, 255, 0.621);
+    color: #333;
 }
 
 [data-testid="stSidebar"] h2 {
-    color: #333; /* Dark headers for consistency with lighter background */
+    color: #333;
     text-align: center;
 }
 
 /* Ensure text in sidebar links is dark */
 [data-testid="stSidebar"] a {
-    color: #333 !important; /* Dark text for sidebar links */
-    text-decoration: none; /* Remove underline for cleaner look */
+    color: #333 !important;
+    text-decoration: none;
 }
 
 [data-testid="stSidebar"] a:hover {
-    color: #4CAF50 !important; /* Green hover effect for links */
+    color: #4CAF50 !important;
 }
 
-/* Button styling */
+/* Button styling with white text */
 button {
-    background-color: #4CAF50; /* Green button */
+    background-color: #4CAF50;
     border: none;
-    color: white;
+    color: white; /* Button text is white */
     padding: 12px 24px;
     text-align: center;
     font-size: 16px;
@@ -66,11 +76,11 @@ button {
 }
 
 button:hover {
-    background-color: #45a049; /* Slightly darker green on hover */
+    background-color: #45a049;
 }
 
 /* Input fields */
-input, textarea {
+input, textarea, select {
     border-radius: 8px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -78,9 +88,9 @@ input, textarea {
     font-family: Arial, sans-serif;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
     outline: none;
-    border: 2px solid #4CAF50; /* Highlight with green border on focus */
+    border: 2px solid #4CAF50;
 }
 
 /* Table styling */
@@ -97,6 +107,6 @@ table th, table td {
 }
 
 table th {
-    background-color: #4CAF50; /* Green header background */
-    color: white; /* White header text */
+    background-color: #4CAF50;
+    color: white;
 }
