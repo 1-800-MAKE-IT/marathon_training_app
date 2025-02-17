@@ -26,7 +26,7 @@ body {
 .title {
     font-family: Georgia, serif;
     font-size: 3em;
-    color: #333; /* Changed from white to dark for better visibility */
+    color: #ffffff; /* This rule won’t affect Streamlit’s st.title if it doesn’t use this class */
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
     margin-top: 20px;
@@ -66,7 +66,7 @@ body {
 button {
     background-color: #4CAF50;
     border: none;
-    color: white; /* Button text is white */
+    color: white; /* Button text remains white */
     padding: 12px 24px;
     text-align: center;
     font-size: 16px;
@@ -109,4 +109,9 @@ table th, table td {
 table th {
     background-color: #4CAF50;
     color: white;
+}
+
+/* Override default text color for all elements except buttons */
+body, h1, h2, h3, h4, h5, h6, p, div, span, label, a {
+    color: #333 !important;
 }
