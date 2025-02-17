@@ -26,7 +26,7 @@ body {
 .title {
     font-family: Georgia, serif;
     font-size: 3em;
-    color: #ffffff; /* This rule won’t affect Streamlit’s st.title if it doesn’t use this class */
+    color: #ffffff;
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
     margin-top: 20px;
@@ -47,6 +47,7 @@ body {
     color: #333;
 }
 
+[data-testid="stAppViewContainer"] h2,
 [data-testid="stSidebar"] h2 {
     color: #333;
     text-align: center;
@@ -66,7 +67,7 @@ body {
 button {
     background-color: #4CAF50;
     border: none;
-    color: white; /* Button text remains white */
+    color: white; /* Base rule */
     padding: 12px 24px;
     text-align: center;
     font-size: 16px;
@@ -111,7 +112,6 @@ table th {
     color: white;
 }
 
-/* Override default text color for all elements except buttons */
-body, h1, h2, h3, h4, h5, h6, p, div, span, label, a {
-    color: #333 !important;
-}
+/* Force button text to remain white, overriding any conflicts */
+button, .stButton button, div.stButton > button {
+    color: w
