@@ -2,10 +2,10 @@
 /* GENERAL BODY STYLING                                                     */
 /* ========================================================================= */
 
-/* Set the default font and force all text to be black */
+/* Set the default font and force all text to be black globally */
 body {
     font-family: Arial, sans-serif;
-    color: #000;  /* All text is forced to black */
+    color: #000;  /* Global text color: black */
     margin: 0;
     padding: 0;
 }
@@ -16,17 +16,17 @@ body {
 
 /* Style the main Streamlit container with a background image and gradient overlay */
 [data-testid="stAppViewContainer"] {
-    /* Apply a light white gradient overlay to improve text readability */
+    /* Apply a semi-transparent white gradient overlay for readability */
     background: linear-gradient(
         rgba(255, 255, 255, 0.5),   /* Upper gradient stop */
         rgba(255, 255, 255, 0.5)    /* Lower gradient stop */
     ),
-    url("{{bg_img}}");             /* Background image; the placeholder is replaced at runtime */
-    background-size: cover;        /* Ensure the image covers the entire container */
-    background-repeat: no-repeat;  /* Prevent the background image from tiling */
+    url("{{bg_img}}");             /* Background image placeholder (replaced at runtime) */
+    background-size: cover;        /* Cover the entire container */
+    background-repeat: no-repeat;  /* Prevent tiling of the background image */
     background-position: center top; /* Position the image at the top center */
-    background-attachment: scroll;  /* Background scrolls with the content */
-    height: 100vh;                /* Container fills the full viewport height */
+    background-attachment: scroll;  /* Background scrolls with content */
+    height: 100vh;                /* Full viewport height */
     margin: 0;
     padding: 0;
 }
@@ -35,21 +35,21 @@ body {
 /* TITLE AND NOTE STYLING                                                   */
 /* ========================================================================= */
 
-/* Style for main titles */
+/* Main title styling */
 .title {
     font-family: Georgia, serif;
     font-size: 3em;
     color: #000;  /* Title text forced to black */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Subtle shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Subtle text shadow for readability */
     text-align: center;
     margin-top: 20px;
 }
 
-/* Style for notes or special messages */
+/* Note or special message styling */
 .note {
     font-family: "Courier New", monospace;
     font-size: 1.2em;
-    color: #FF5733;  /* Distinct note color */
+    color: #FF5733;  /* Distinct color for notes */
     margin: 10px 0;
     text-align: center;
 }
@@ -58,97 +58,117 @@ body {
 /* SIDEBAR STYLING                                                          */
 /* ========================================================================= */
 
-/* Style the Streamlit sidebar with a semi-transparent white background */
+/* Sidebar container styling with semi-transparent white background */
 [data-testid="stSidebar"] {
     background-color: rgba(255, 255, 255, 0.621);
     color: #000;  /* Sidebar text forced to black */
 }
 
-/* Style headings within both the main container and sidebar */
+/* Sidebar and main container heading styling */
 [data-testid="stAppViewContainer"] h2,
 [data-testid="stSidebar"] h2 {
     color: #000;
     text-align: center;
 }
 
-/* Style links in the sidebar to ensure they are black */
+/* Sidebar link styling: force links to be black */
 [data-testid="stSidebar"] a {
     color: #000 !important;
     text-decoration: none;
 }
 
-/* Change sidebar link color on hover */
+/* Sidebar link hover state: change to green on hover */
 [data-testid="stSidebar"] a:hover {
-    color: #4CAF50 !important;  /* Green hover effect */
+    color: #4CAF50 !important;
 }
 
 /* ========================================================================= */
 /* BUTTON STYLING                                                           */
 /* ========================================================================= */
 
-/* 
-   Style all buttons (including those created by Streamlit's st.button 
-   and any custom buttons like the login button) with a light gray background 
-   and black text. The background becomes a darker gray on hover.
-*/
+/* General button styling for main content buttons:
+   Light gray background with darker gray on hover, black text. */
 button, .stButton button, div.stButton > button {
-    background-color: #d3d3d3 !important;  /* Light gray background */
-    border: none !important;              /* No border */
-    color: #000 !important;               /* Button text forced to black */
-    padding: 12px 24px !important;         /* Consistent padding */
-    text-align: center !important;
-    font-size: 16px !important;
-    border-radius: 8px !important;         /* Rounded corners */
-    cursor: pointer !important;            /* Pointer cursor on hover */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;  /* Subtle shadow */
+    background-color: #d3d3d3; /* Light gray background */
+    border: none;
+    color: #000;  /* Button text forced to black */
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Button hover state: change background to a darker gray */
 button:hover, .stButton button:hover, div.stButton > button:hover {
-    background-color: #a9a9a9 !important;  /* Darker gray on hover */
+    background-color: #a9a9a9; /* Darker gray on hover */
+}
+
+/* ========================================================================= */
+/* SIDEBAR BUTTON OVERRIDE                                                  */
+/* ========================================================================= */
+
+/* Remove background and border for buttons in the sidebar */
+[data-testid="stSidebar"] button,
+[data-testid="stSidebar"] .stButton button,
+[data-testid="stSidebar"] div.stButton > button {
+    background-color: transparent !important; /* No background */
+    border: none !important;                  /* No border */
+}
+
+/* ========================================================================= */
+/* TOP BANNER BUTTON OVERRIDE                                               */
+/* ========================================================================= */
+
+/* Remove background and border for buttons in the top banner (header),
+   including settings, GitHub, edit, star, and share buttons */
+[data-testid="stHeader"] button,
+[data-testid="stHeader"] .stButton button,
+[data-testid="stHeader"] div.stButton > button {
+    background-color: transparent !important; /* No background */
+    border: none !important;                  /* No border */
 }
 
 /* ========================================================================= */
 /* INPUT FIELDS STYLING                                                     */
 /* ========================================================================= */
 
-/* Style text boxes, text areas, and select dropdowns with a light gray background */
+/* Style text input fields, text areas, and select dropdowns */
 input, textarea, select {
-    background-color: #f0f0f0;  /* Light gray background for inputs */
+    background-color: #f0f0f0;  /* Light gray background for input fields */
     border-radius: 8px;         /* Rounded corners */
-    padding: 10px;              /* Padding inside inputs */
+    padding: 10px;              /* Internal padding */
     border: 1px solid #ccc;     /* Light border */
-    font-size: 14px;            /* Font size */
+    font-size: 14px;
     font-family: Arial, sans-serif;
-    color: #000;                /* Input text forced to black */
+    color: #222;  /* Very dark gray text for user input */
 }
 
-/* Change input border on focus to indicate active field */
 input:focus, textarea:focus, select:focus {
     outline: none;
-    border: 2px solid #4CAF50;  /* Green border on focus */
+    border: 2px solid #4CAF50;  /* Green border when focused */
 }
 
 /* ========================================================================= */
 /* TABLE STYLING                                                            */
 /* ========================================================================= */
 
-/* Style for tables to ensure they are clean and readable */
+/* Basic table styling for clean display */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-/* Style table cells */
+/* Table cell styling: enforce black text */
 table th, table td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-    color: #000;  /* Force table text to be black */
+    color: #000;
 }
 
-/* Style table headers with a green background */
+/* Table header styling with green background */
 table th {
     background-color: #4CAF50;
     color: #000;
@@ -158,10 +178,7 @@ table th {
 /* UNIVERSAL TEXT COLOR OVERRIDE                                            */
 /* ========================================================================= */
 
-/* 
-   Force all elements to have black text by default.
-   This rule ensures consistency across the entire app.
-*/
+/* Force all elements to have black text by default */
 * {
     color: #000 !important;
 }
