@@ -2,14 +2,9 @@
 /* BACKGROUND FOR THE APP CONTAINER                                         */
 /* ========================================================================= */
 
-/* This rule sets the background image with a white gradient overlay. 
-   The {{bg_img}} placeholder is replaced at runtime with your Base64 image data. */
-   [data-testid="stAppViewContainer"] {
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
-    ),
-    url("{{bg_img}}");
+/* Background for the app container without any overlay */
+[data-testid="stAppViewContainer"] {
+    background: url("{{bg_img}}");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
