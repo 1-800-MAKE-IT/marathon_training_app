@@ -1,7 +1,7 @@
 /* General body styling with default font */
 body {
     font-family: Arial, sans-serif;
-    color: #000; /* all text black */
+    color: #000;  /* Force all text black */
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ body {
 .title {
     font-family: Georgia, serif;
     font-size: 3em;
-    color: #000; /* force title text black */
+    color: #000;  /* Title text in black */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     text-align: center;
     margin-top: 20px;
@@ -44,7 +44,7 @@ body {
 /* Sidebar styling - now lighter */
 [data-testid="stSidebar"] {
     background-color: rgba(255, 255, 255, 0.621);
-    color: #000; /* sidebar text black */
+    color: #000;
 }
 
 [data-testid="stAppViewContainer"] h2,
@@ -63,26 +63,26 @@ body {
     color: #4CAF50 !important;
 }
 
-/* Button styling: light gray background with black text */
+/* Button styling: light gray background with darker gray on hover, black text */
 button {
-    background-color: #d3d3d3; /* light gray background */
+    background-color: #d3d3d3; /* Always light gray */
     border: none;
-    color: #000; /* force button text black */
+    color: #000;  /* Button text black */
     padding: 12px 24px;
     text-align: center;
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(138, 218, 114, 0.687);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
-    background-color: #c0c0c0; /* slightly darker on hover */
+    background-color: #a9a9a9; /* Darker gray on hover */
 }
 
 /* Input fields styling with light gray background */
 input, textarea, select {
-    background-color: #f0f0f0; /* light gray for text boxes */
+    background-color: #f0f0f0; /* Light gray background for inputs */
     border-radius: 8px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -112,10 +112,10 @@ table th, table td {
 
 table th {
     background-color: #4CAF50;
-    color: #000; /* force table header text black */
+    color: #000;
 }
 
-/* Ensure all text remains black */
+/* Universal text color enforcement */
 * {
     color: #000 !important;
 }
