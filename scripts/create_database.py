@@ -1,17 +1,13 @@
-# from langchain.document_loaders import DirectoryLoader
+import logging
+import os
+import shutil
+from typing import List
+import streamlit as st
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
-# from langchain.embeddings import OpenAIEmbeddings
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-import openai 
-import streamlit as st
-from dotenv import load_dotenv
-import os
-import shutil
-import logging
-import types
 
 logging.basicConfig(
     level=logging.INFO,
@@ -22,29 +18,29 @@ logging.basicConfig(
     ]
 )
 
-def load_documents(data_path: str = "data/PDFs") -> list[Document]:
+def load_documents(data_path: str = "data/PDFs") -> List[Document]:
     """
     Load documents into Document datatype in langchain. Document also includes metadata.
     TO DO - add additional metadata from json file.
 
-    Inputs:
-    data_path (str) : path where data is located 
+    Parameters:
+    - data_path (str): Path where data is located
 
     Returns:
-    Documents (list of langchain document objects) : documents and metadata
+    - List[Document]: List of langchain document objects containing documents and metadata
     """
     loader = DirectoryLoader(data_path, glob="*.pdf")
-    documents: list[Document] = loader.load()
+    documents: List[Document] = loader.load()
     
     logging.info(f"Downloaded {len(documents)} documents with metadata.")
 
     return documents
 
-def split_text() -> list[Document]:
+def split_text() -> List[Document]:
     """
-    Gets chunks from documents
+    Gets chunks from documents.
     """
-    documents: list[Document] = load_documents(data_path="data/PDFs")
+    documents: List[Document] = load_documents(data_path="data/PDFs")
 
     chunk_size: int = 1000
     chunk_overlap: int = 500
@@ -56,13 +52,13 @@ def split_text() -> list[Document]:
         add_start_index=True
     )
 
-    chunks: list[Document] = text_splitter.split_documents(documents)
+    chunks: List[Document] = text_splitter.split_documents(documents)
 
     logging.info(f"Downloaded {len(documents)} documents and split into {len(chunks)}. Chunk size: {chunk_size}, overlap: {chunk_overlap}")
 
     return chunks
 
-def save_to_chroma(chunks: list[Document]) -> int:
+def save_to_chroma(chunks: List[Document]) -> int:
     """
     Creates ChromaDB and saves chunks from documents.
     """
