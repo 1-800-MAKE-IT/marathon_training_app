@@ -89,3 +89,15 @@ def save_to_chroma(chunks: List[Document]) -> int:
     logging.info(f"Saved {len(chunks)} chunks to {chroma_path}.")
 
     return 1
+
+
+def generate_data_store():
+    try:
+        documents = load_documents()
+        chunks = split_text(documents)
+        save_to_chroma(chunks)
+        return "Complete"
+    
+    except:
+        return "Error creating database. Please try again."
+

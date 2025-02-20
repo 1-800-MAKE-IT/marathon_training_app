@@ -3,6 +3,9 @@ import logging
 import base64
 from scripts.auth import get_authenticator
 from typing import Any
+from scripts.create_database import generate_data_store
+from scripts.query_data import query_vector_db
+
 
 # ------------------------------
 # Page Configuration
@@ -55,5 +58,19 @@ query: str = st.text_input("Enter your question:")
 
 if st.button("Submit Query"):
     logging.info(f"User queried: {query}")
-    response: str = "Response placeholder"  # TODO: Connect to chatbot logic
+
+    
+    response :str = generate_data_store()
+
+    if response != "Complete":
+
+        st.error("Please log in first.")
+        st.stop()
+
+    
+    error_code, response : int, str  = query_vector_db(query) 
     st.write(response)
+
+    
+
+

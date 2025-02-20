@@ -14,7 +14,7 @@ logging.basicConfig(
     ]
 )
 
-def query_vector_db(query_text: str) -> Tuple[int, str]:
+def query_vector_db(query_text: str) -> str:
     """
     Query the vector database for similar documents and generate a response.
 
@@ -48,7 +48,7 @@ def query_vector_db(query_text: str) -> Tuple[int, str]:
 
     if len(results) == 0 or results[0][1] < 0.7:
         logging.info(f"No matching results found for query: {query_text}")
-        return 0, "Unable to return matching results."
+        return  "Unable to return matching results."
 
     logging.info(f"Found {len(results)} matching documents for query: {query_text}")
 
@@ -76,4 +76,4 @@ def query_vector_db(query_text: str) -> Tuple[int, str]:
 
     logging.info(f"Query successful. Response generated for query: {query_text}")
 
-    return 1, formatted_response
+    return formatted_response
