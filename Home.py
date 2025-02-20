@@ -62,7 +62,7 @@ if st.session_state['authentication_status']:
     current_size: float = get_directory_size("data")
     max_size_mb: int = 700
     st.info(f"Current Storage Usage: {current_size:.2f} MB / {max_size_mb} MB")
-    num_papers: int = st.number_input("Number of papers to fetch:", min_value=1, max_value=50, value=10, step=1)
+    num_papers: int = st.number_input("Number of papers to fetch:", min_value=1, max_value=100, value=10, step=1)
     
     if st.button("Update Academic Data"):
         try:
