@@ -2,7 +2,7 @@ import streamlit as st
 import logging
 import base64
 from scripts.auth import get_authenticator
-from typing import Any
+from typing import Any, Tuple
 from scripts.create_database import generate_data_store
 from scripts.query_data import query_vector_db
 
@@ -54,23 +54,36 @@ st.write("Protected content here.")
 st.title("Personal Coach")
 st.write("Ask me your training-related questions!")
 
-query: str = st.text_input("Enter your question:")
+# Initialize chat history if not already present
+if "messages" not in st.session_state:
+    st.session_state["messages"] = []
 
-if st.button("Submit Query"):
+# Display past chat messages
+for message in st.session_state["messages"]:
+    with st.chat_message(message["role"]):
+        st.write(message["content"])
+
+# User input for chat
+query: str = st.chat_input("Ask a question...")
+
+if query:
     logging.info(f"User queried: {query}")
 
-    
-    response :str = generate_data_store()
+    response: str = generate_data_store()
 
     if response != "Complete":
-
         st.error("Please log in first.")
         st.stop()
 
-    
-    error_code, response : int, str  = query_vector_db(query) 
-    st.write(response)
+    # Append user query to chat history
+    st.session_state["messages"].append({"role": "user", "content": query})
 
-    
+    # Call model and get response
+    error_code, bot_response = query_vector_db(query)  
 
+    # Append bot response to chat history
+    st.session_state["messages"].append({"role": "assistant", "content": bot_response})
 
+    # Display bot response
+    with st.chat_message("assistant"):
+        st.write(bot_response)
