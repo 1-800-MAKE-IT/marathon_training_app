@@ -100,4 +100,6 @@ def generate_data_store():
     
     except:
         return "Error creating database. Please try again."
+    
+generate_data_store()
 

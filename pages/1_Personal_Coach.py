@@ -42,11 +42,12 @@ load_css()
 # ------------------------------
 if "authentication_status" not in st.session_state or st.session_state["authentication_status"] is not True:
     st.error("Please log in first.")
-    st.stop()
+    st.session_state["authentication_status"] = False  # Ensure authentication status is set to False
 
 # Protected content for authenticated users.
-st.success(f"Welcome {st.session_state['name']}!")
-st.write("Protected content here.")
+if st.session_state["authentication_status"]:
+    st.success(f"Welcome {st.session_state['name']}!")
+    st.write("Protected content here.")
 
 # ------------------------------
 # Chatbot Functionality
@@ -69,21 +70,25 @@ query: str = st.chat_input("Ask a question...")
 if query:
     logging.info(f"User queried: {query}")
 
-    response: str = generate_data_store()
-
-    if response != "Complete":
+    # Check authentication status before proceeding
+    if not st.session_state["authentication_status"]:
         st.error("Please log in first.")
-        st.stop()
+    else:
+        # Call model and get response
+        response: str = generate_data_store()
 
-    # Append user query to chat history
-    st.session_state["messages"].append({"role": "user", "content": query})
+        if response != "Complete":
+            st.error("Error: Unable to fetch data. Please try again.")
+        else:
+            # Append user query to chat history
+            st.session_state["messages"].append({"role": "user", "content": query})
 
-    # Call model and get response
-    error_code, bot_response = query_vector_db(query)  
+            # Call model and get response
+            error_code, bot_response = query_vector_db(query)  
 
-    # Append bot response to chat history
-    st.session_state["messages"].append({"role": "assistant", "content": bot_response})
+            # Append bot response to chat history
+            st.session_state["messages"].append({"role": "assistant", "content": bot_response})
 
-    # Display bot response
-    with st.chat_message("assistant"):
-        st.write(bot_response)
+            # Display bot response
+            with st.chat_message("assistant"):
+                st.write(bot_response)
