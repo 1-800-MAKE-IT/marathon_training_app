@@ -50,6 +50,7 @@ if not st.session_state["authentication_status"]:
 
 # Display protected content for authenticated users
 if st.session_state["authentication_status"]:
+    
     st.success(f"Welcome {st.session_state['name']}!")
     st.write("Protected content here.")
 

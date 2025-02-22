@@ -49,6 +49,10 @@ def fetch_arxiv_papers(query="marathon training guide", max_results=100, max_sto
     for result in search.results():
 
         paper_id = result.entry_id.split('/')[-1]  # Extract unique paper ID
+    
+        title_string_with_spaces : str = result.title
+        title_string_no_spaces : str = title_string_with_spaces.replace(" ", "_")
+
         paper_path = os.path.join(pdf_dir, f"{result.title}.pdf")  # Define file path for the PDF
 
         # Skip if the PDF already exists to avoid re-downloading

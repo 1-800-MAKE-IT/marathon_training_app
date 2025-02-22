@@ -76,7 +76,8 @@ if st.session_state['authentication_status']:
             else:
                 st.success(f"Successfully fetched {len(papers)} papers.")
                 updated_size: float = get_directory_size("data/papers")
-                st.info(f"Updated Storage Usage: {updated_size:.2f} MB / {max_size_mb} MB")
+                #st.info(f"Updated Storage Usage: {updated_size:.2f} MB / {max_size_mb} MB")
+                
         except Exception as e:
             st.error(f"An error occurred: {e}")
             logging.error(f"Exception in fetching academic data: {e}")
