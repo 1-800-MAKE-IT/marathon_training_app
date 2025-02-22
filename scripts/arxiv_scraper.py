@@ -64,7 +64,7 @@ def fetch_arxiv_papers(query="marathon training guide", max_results=100, max_sto
 
         # Skip if the PDF already exists to avoid re-downloading
         if os.path.exists(paper_path):
-            logging.info(f"Paper {paper_id} already downloaded. Skipping.")
+            logging.info(f"Paper {title_string_cleaned} already downloaded. Skipping.")
             continue
 
         # Check current storage usage to ensure we don't exceed the limit
@@ -92,7 +92,7 @@ def fetch_arxiv_papers(query="marathon training guide", max_results=100, max_sto
             logging.info(f"Downloaded paper: {result.title}")  # Log successful download
 
         except Exception as e:
-            logging.error(f"Failed to download paper {paper_id}: {e}")  # Log download failures
+            logging.error(f"Failed to download paper {title_string_cleaned}: {e}")  # Log download failures
 
     # Save metadata for all downloaded papers into a JSON file in the metadata directory
     metadata_path = os.path.join(metadata_dir, "metadata.json")

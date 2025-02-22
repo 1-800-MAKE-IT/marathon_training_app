@@ -31,7 +31,10 @@ def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
     """
     loader = DirectoryLoader(data_path, glob="*.pdf")
 
+    logging.info(f"Attempting to load documents...")
+
     documents: List[Document] = loader.load()
+
     print("loaded docs")
     
     logging.info(f"Downloaded {len(documents)} documents with metadata.")

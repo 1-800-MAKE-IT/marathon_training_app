@@ -67,7 +67,7 @@ if st.session_state['authentication_status']:
     st.info(f"Current Storage Usage: {current_size:.2f} MB / {max_size_mb} MB")
     num_papers: int = st.number_input("Number of papers to fetch:", min_value=1, max_value=100, value=10, step=1)
     
-    directory_path : str = "/workspaces/marathon_training_app/data/PDFs"
+    directory_path : str = "/workspaces/marathon_training_app/data/PDFs/"
 
     if st.button("Update Academic Data"):
         try:
