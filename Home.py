@@ -4,6 +4,9 @@ from scripts.arxiv_scraper import fetch_arxiv_papers, get_directory_size
 import logging
 from scripts.auth import get_authenticator
 from typing import Any, List
+import os
+import shutil
+from scripts.clear_data import clear_directory
 
 # ========================
 # 1. Page Configuration
@@ -64,6 +67,12 @@ if st.session_state['authentication_status']:
     st.info(f"Current Storage Usage: {current_size:.2f} MB / {max_size_mb} MB")
     num_papers: int = st.number_input("Number of papers to fetch:", min_value=1, max_value=100, value=10, step=1)
     
+    directory_path : str = "/workspaces/marathon_training_app/data/PDFs"
+
+    # Button to clear the directory
+    if st.button("Clear Directory"):
+        clear_directory(directory_path)
+
     if st.button("Update Academic Data"):
         try:
             papers: List[Any] = fetch_arxiv_papers(
@@ -77,7 +86,7 @@ if st.session_state['authentication_status']:
                 st.success(f"Successfully fetched {len(papers)} papers.")
                 updated_size: float = get_directory_size("data/papers")
                 #st.info(f"Updated Storage Usage: {updated_size:.2f} MB / {max_size_mb} MB")
-                
+
         except Exception as e:
             st.error(f"An error occurred: {e}")
             logging.error(f"Exception in fetching academic data: {e}")
