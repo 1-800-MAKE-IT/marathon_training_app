@@ -53,7 +53,7 @@ def fetch_arxiv_papers(query="marathon training guide", max_results=100, max_sto
         title_string_with_spaces : str = result.title
         title_string_no_spaces : str = title_string_with_spaces.replace(" ", "_")
 
-        paper_path = os.path.join(pdf_dir, f"{result.title}.pdf")  # Define file path for the PDF
+        paper_path = os.path.join(pdf_dir, f"{title_string_no_spaces}.pdf")  # Define file path for the PDF
 
         # Skip if the PDF already exists to avoid re-downloading
         if os.path.exists(paper_path):
