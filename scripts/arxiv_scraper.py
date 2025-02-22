@@ -4,6 +4,7 @@ import requests
 import json
 from datetime import datetime
 import logging
+import re
 
 logging.basicConfig(
     level=logging.INFO,
@@ -59,7 +60,7 @@ def fetch_arxiv_papers(query="marathon training guide", max_results=100, max_sto
         # Ensure the filename is lowercase (Linux convention)
         title_string_cleaned: str = title_string_no_spaces.lower()
 
-        paper_path = os.path.join(pdf_dir, f"{title_string_no_spaces}.pdf")  # Define file path for the PDF
+        paper_path = os.path.join(pdf_dir, f"{title_string_cleaned}.pdf")  # Define file path for the PDF
 
         # Skip if the PDF already exists to avoid re-downloading
         if os.path.exists(paper_path):
