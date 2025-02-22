@@ -18,7 +18,7 @@ logging.basicConfig(
     ]
 )
 
-def load_documents(data_path: str = "data/PDFs") -> List[Document]:
+def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
     """
     Load documents into Document datatype in langchain. Document also includes metadata.
     TO DO - add additional metadata from json file.
@@ -30,7 +30,9 @@ def load_documents(data_path: str = "data/PDFs") -> List[Document]:
     - List[Document]: List of langchain document objects containing documents and metadata
     """
     loader = DirectoryLoader(data_path, glob="*.pdf")
+
     documents: List[Document] = loader.load()
+    print("loaded docs")
     
     logging.info(f"Downloaded {len(documents)} documents with metadata.")
 

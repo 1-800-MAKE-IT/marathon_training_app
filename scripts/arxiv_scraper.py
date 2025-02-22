@@ -17,7 +17,7 @@ logging.basicConfig(
 # ========================
 # 1. Fetch Metadata and Download PDFs
 # ========================
-def fetch_arxiv_papers(query="marathon training", max_results=100, max_storage_mb=600):
+def fetch_arxiv_papers(query="marathon training guide", max_results=100, max_storage_mb=600):
     """
     Fetch metadata and download PDFs from arXiv based on the query.
 
@@ -47,8 +47,9 @@ def fetch_arxiv_papers(query="marathon training", max_results=100, max_storage_m
     papers = []  # List to store metadata for downloaded papers
 
     for result in search.results():
+
         paper_id = result.entry_id.split('/')[-1]  # Extract unique paper ID
-        paper_path = os.path.join(pdf_dir, f"{paper_id}.pdf")  # Define file path for the PDF
+        paper_path = os.path.join(pdf_dir, f"{result.title}.pdf")  # Define file path for the PDF
 
         # Skip if the PDF already exists to avoid re-downloading
         if os.path.exists(paper_path):

@@ -40,49 +40,49 @@ load_css()
 # ------------------------------
 # Prompt User to Log In
 # ------------------------------
-if "authentication_status" not in st.session_state or st.session_state["authentication_status"] is not True:
-    st.error("Please log in first.")
-    st.session_state["authentication_status"] = False  # Ensure authentication status is set to False
+if "authentication_status" not in st.session_state:
+    st.session_state["authentication_status"] = False  # Set initial authentication status
 
-# Protected content for authenticated users.
+# Display login prompt if not authenticated
+if not st.session_state["authentication_status"]:
+    st.error("Please log in first.")
+    st.stop()
+
+# Display protected content for authenticated users
 if st.session_state["authentication_status"]:
     st.success(f"Welcome {st.session_state['name']}!")
     st.write("Protected content here.")
 
-# ------------------------------
-# Chatbot Functionality
-# ------------------------------
-st.title("Personal Coach")
-st.write("Ask me your training-related questions!")
+    # ------------------------------
+    # Chatbot Functionality
+    # ------------------------------
+    st.title("Personal Coach")
+    st.write("Ask me your training-related questions!")
 
-# Initialize chat history if not already present
-if "messages" not in st.session_state:
-    st.session_state["messages"] = []
+    # Initialize chat history if not already present
+    if "messages" not in st.session_state:
+        st.session_state["messages"] = []
 
-# Display past chat messages
-for message in st.session_state["messages"]:
-    with st.chat_message(message["role"]):
-        st.write(message["content"])
+    # Display past chat messages
+    for message in st.session_state["messages"]:
+        with st.chat_message(message["role"]):
+            st.write(message["content"])
 
-# User input for chat
-query: str = st.chat_input("Ask a question...")
+    # User input for chat
+    query: str = st.chat_input("Ask a question...")
 
-if query:
-    logging.info(f"User queried: {query}")
+    if query:
+        logging.info(f"User queried: {query}")
 
-    # Check authentication status before proceeding
-    if not st.session_state["authentication_status"]:
-        st.error("Please log in first.")
-    else:
+        # Append user query to chat history
+        st.session_state["messages"].append({"role": "user", "content": query})
+
         # Call model and get response
         response: str = generate_data_store()
 
         if response != "Complete":
             st.error("Error: Unable to fetch data. Please try again.")
         else:
-            # Append user query to chat history
-            st.session_state["messages"].append({"role": "user", "content": query})
-
             # Call model and get response
             error_code, bot_response = query_vector_db(query)  
 
