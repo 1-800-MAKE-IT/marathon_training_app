@@ -57,6 +57,15 @@ if st.session_state["authentication_status"]:
     # ------------------------------
     # Chatbot Functionality
     # ------------------------------
+
+    # Call model and get response
+    response: str = generate_data_store()
+
+    if response == "Complete" :
+        logging.info("successfully created vector db")
+    else :
+        logging.error("Failed to create vector DB")
+
     st.title("Personal Coach")
     st.write("Ask me your training-related questions!")
 
@@ -68,9 +77,6 @@ if st.session_state["authentication_status"]:
     for message in st.session_state["messages"]:
         with st.chat_message(message["role"]):
             st.write(message["content"])
-
-    # Call model and get response
-    response: str = generate_data_store()
 
     # User input for chat
     query: str = st.chat_input("Ask a question...")
