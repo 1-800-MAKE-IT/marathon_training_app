@@ -69,12 +69,14 @@ if st.session_state['authentication_status']:
     
     directory_path : str = "/workspaces/marathon_training_app/data/PDFs"
 
-    # Button to clear the directory
-    if st.button("Clear Directory"):
-        clear_directory(directory_path)
-
     if st.button("Update Academic Data"):
         try:
+
+            #clear first
+            clear_directory(directory_path)
+
+            logging.info("Cleared data directory")
+
             papers: List[Any] = fetch_arxiv_papers(
                 query="marathon training",
                 max_results=num_papers,
