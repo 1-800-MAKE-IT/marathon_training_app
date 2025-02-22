@@ -3,7 +3,7 @@ import os
 import shutil
 from typing import List
 import streamlit as st
-from langchain_community.document_loaders import DirectoryLoader
+from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
@@ -20,7 +20,7 @@ logging.basicConfig(
 
 def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
     """
-    Load documents into Document datatype in langchain. Document also includes metadata.
+    Load documents into Document datatype in langchain using PyPDFLoader. Document also includes metadata.
     TO DO - add additional metadata from json file.
 
     Parameters:
@@ -29,16 +29,21 @@ def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
     Returns:
     - List[Document]: List of langchain document objects containing documents and metadata
     """
-    loader = DirectoryLoader(data_path, glob="*.pdf")
+    logging.info("Attempting to load documents using PyPDFLoader...")
+    
+    documents: List[Document] = []
+    for filename in os.listdir(data_path):
+        if filename.lower().endswith(".pdf"):
+            file_path: str = os.path.join(data_path, filename)
 
-    logging.info(f"Attempting to load documents...")
-
-    documents: List[Document] = loader.load()
-
-    print("loaded docs")
+            logging.info(f"Loading file {file_path} using PyPDFLoader...")
+            
+            loader: PyPDFLoader = PyPDFLoader(file_path)
+            loaded_docs: List[Document] = loader.load()
+            documents.extend(loaded_docs)
+            logging.info(f"Loaded {len(loaded_docs)} documents from {filename}.")
     
     logging.info(f"Downloaded {len(documents)} documents with metadata.")
-
     return documents
 
 def split_text() -> List[Document]:

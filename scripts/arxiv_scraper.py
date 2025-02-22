@@ -131,3 +131,5 @@ def get_directory_size(directory):
 # downloading the PDFs to the 'data/PDFs' directory, and saving the metadata for each paper
 # in the separate 'data/metadata' directory.
 # It is designed to be robust and efficient, with logging for monitoring download progress and errors.
+
+fetch_arxiv_papers()

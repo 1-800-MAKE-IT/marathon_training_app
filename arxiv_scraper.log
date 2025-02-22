@@ -150,3 +150,18 @@
 2025-02-03 22:52:38,616 - INFO - Downloaded paper: Neutron valence structure from nuclear deep inelastic scattering
 2025-02-03 22:52:38,704 - INFO - Downloaded paper: QCD Hidden-Color Hexa-diquark in the Central Core of Nuclei
 2025-02-03 22:52:59,323 - INFO - Downloaded paper: Aerodynamic effects and performance improvements of running in drafting formations
+2025-02-22 21:44:39,967 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=marathon+training+guide&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-02-22 21:44:41,553 - INFO - Got first page: 100 of 219315 total results
+2025-02-22 21:44:42,740 - INFO - Downloaded paper: Marathon Environments: Multi-Agent Continuous Control Benchmarks in a Modern Video Game Engine
+2025-02-22 21:44:42,833 - INFO - Downloaded paper: Marathon pacing and elevation change
+2025-02-22 21:44:43,915 - INFO - Downloaded paper: Influence of advanced footwear technology on sub-2 hour marathon and other top running performances
+2025-02-22 21:44:44,005 - INFO - Downloaded paper: Multifractal analysis of physiological data from marathon runners
+2025-02-22 21:44:44,151 - INFO - Downloaded paper: Marathon: A Race Through the Realm of Long Context with Large Language Models
+2025-02-22 21:44:44,248 - INFO - Downloaded paper: Altitude Training: Strong Bounds for Single-Layer Dropout
+2025-02-22 21:44:44,770 - INFO - Downloaded paper: Optimizing Electric Vehicle Efficiency with Real-Time Telemetry using Machine Learning
+2025-02-22 21:44:45,414 - INFO - Downloaded paper: Deep Learning Methods for Event Verification and Image Repurposing Detection
+2025-02-22 21:44:45,681 - INFO - Downloaded paper: Making up for the deficit in a marathon run
+2025-02-22 21:44:46,115 - INFO - Downloaded paper: Against negative splitting: the case for alternative pacing strategies for elite marathon athletes in official events
+2025-02-22 21:44:46,203 - INFO - Downloaded paper: Where are the marathon Girls?: An Analysis of Female Representation in the Brazilian ICPC Programming Marathons
+2025-02-22 21:44:47,080 - INFO - Downloaded paper: Multiple change point detection in functional data with applications to biomechanical fatigue data
+2025-02-22 21:44:48,291 - INFO - Downloaded paper: A review of univariate and multivariate multifractal analysis illustrated by the analysis of marathon runners physiological data

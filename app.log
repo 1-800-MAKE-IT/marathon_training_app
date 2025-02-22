@@ -2,3 +2,7 @@
 2025-02-20 22:17:08,103 - ERROR - Error loading file data/PDFs/2410.10602v1.pdf
 2025-02-20 22:20:08,386 - ERROR - Error loading file data/PDFs/2410.10602v1.pdf
 2025-02-22 21:39:15,115 - INFO - Downloaded 0 documents with metadata.
+2025-02-22 21:40:59,551 - INFO - Attempting to load documents...
+2025-02-22 21:40:59,552 - INFO - Downloaded 0 documents with metadata.
+2025-02-22 21:48:25,503 - INFO - Attempting to load documents...
+2025-02-22 21:48:25,504 - ERROR - Error loading file data/PDFs/multiple_change_point_detection_in_functional_data_with_applications_to_biomechanical_fatigue_data.pdf
