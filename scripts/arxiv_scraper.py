@@ -50,8 +50,14 @@ def fetch_arxiv_papers(query="marathon training guide", max_results=100, max_sto
 
         paper_id = result.entry_id.split('/')[-1]  # Extract unique paper ID
     
-        title_string_with_spaces : str = result.title
-        title_string_no_spaces : str = title_string_with_spaces.replace(" ", "_")
+        # Example filename with spaces and special characters
+        title_string_with_spaces: str = result.title
+
+        # Remove special characters using regex and replace spaces with underscores
+        title_string_no_spaces: str = re.sub(r'[^\w\s-]', '', title_string_with_spaces).strip().replace(' ', '_')
+
+        # Ensure the filename is lowercase (Linux convention)
+        title_string_cleaned: str = title_string_no_spaces.lower()
 
         paper_path = os.path.join(pdf_dir, f"{title_string_no_spaces}.pdf")  # Define file path for the PDF
 
