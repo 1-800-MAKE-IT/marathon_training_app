@@ -69,6 +69,9 @@ if st.session_state["authentication_status"]:
         with st.chat_message(message["role"]):
             st.write(message["content"])
 
+    # Call model and get response
+    response: str = generate_data_store()
+
     # User input for chat
     query: str = st.chat_input("Ask a question...")
 
@@ -77,9 +80,6 @@ if st.session_state["authentication_status"]:
 
         # Append user query to chat history
         st.session_state["messages"].append({"role": "user", "content": query})
-
-        # Call model and get response
-        response: str = generate_data_store()
 
         if response != "Complete":
             st.error("Error: Unable to fetch data. Please try again.")
