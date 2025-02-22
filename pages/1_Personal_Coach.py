@@ -64,7 +64,7 @@ if st.session_state["authentication_status"]:
     if response == "Complete" :
         logging.info("successfully created vector db")
     else :
-        logging.error("Failed to create vector DB")
+        logging.error(f"Failed to create vector DB. Error = {response}")
 
     st.title("Personal Coach")
     st.write("Ask me your training-related questions!")
