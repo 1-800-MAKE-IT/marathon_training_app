@@ -132,4 +132,3 @@ def get_directory_size(directory):
 # in the separate 'data/metadata' directory.
 # It is designed to be robust and efficient, with logging for monitoring download progress and errors.
 
-fetch_arxiv_papers()

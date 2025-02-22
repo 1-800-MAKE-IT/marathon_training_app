@@ -37,7 +37,7 @@ def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
             file_path: str = os.path.join(data_path, filename)
 
             logging.info(f"Loading file {file_path} using PyPDFLoader...")
-            
+
             loader: PyPDFLoader = PyPDFLoader(file_path)
             loaded_docs: List[Document] = loader.load()
             documents.extend(loaded_docs)
@@ -111,5 +111,4 @@ def generate_data_store():
     except:
         return "Error creating database. Please try again."
     
-generate_data_store()
 
