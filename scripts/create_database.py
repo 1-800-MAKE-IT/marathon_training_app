@@ -40,6 +40,7 @@ def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
     logging.info("Attempting to load documents using PyPDFLoader...")
     
     documents: List[Document] = []
+    
     for filename in os.listdir(data_path):
 
         if filename.lower().endswith(".pdf"):
