@@ -1,3 +1,11 @@
+#force correct sqlite3 version
+try:
+    import pysqlite3
+    import sys
+    sys.modules["sqlite3"] = pysqlite3
+except ImportError:
+    pass
+
 import logging
 from typing import Tuple, List
 from langchain_community.vectorstores import Chroma
