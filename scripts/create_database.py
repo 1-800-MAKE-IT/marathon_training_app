@@ -3,7 +3,7 @@ import os
 import shutil
 from typing import List
 import streamlit as st
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
@@ -33,17 +33,22 @@ def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
     
     documents: List[Document] = []
     for filename in os.listdir(data_path):
+
         if filename.lower().endswith(".pdf"):
             file_path: str = os.path.join(data_path, filename)
 
             logging.info(f"Loading file {file_path} using PyPDFLoader...")
 
             loader: PyPDFLoader = PyPDFLoader(file_path)
+
             loaded_docs: List[Document] = loader.load()
+
             documents.extend(loaded_docs)
+
             logging.info(f"Loaded {len(loaded_docs)} documents from {filename}.")
     
     logging.info(f"Downloaded {len(documents)} documents with metadata.")
+    
     return documents
 
 def split_text() -> List[Document]:
@@ -103,12 +108,13 @@ def save_to_chroma(chunks: List[Document]) -> int:
 
 def generate_data_store():
     try:
-        documents = load_documents()
-        chunks = split_text(documents)
+        chunks = split_text()
         save_to_chroma(chunks)
         return "Complete"
     
-    except:
-        return "Error creating database. Please try again."
+    except Exception as e:
+        return f"Error creating database: {e}. Please try again."
+    
+print(generate_data_store())
     
 
