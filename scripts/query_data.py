@@ -50,9 +50,13 @@ def query_vector_db(query_text: str) -> str:
     embedding_function = OpenAIEmbeddings(model="text-embedding-3-small")
     db = Chroma(persist_directory=chroma_path, embedding_function=embedding_function)
 
-    # Search for the chunks that match our query
+    # Generate embedding for the query
+    query_embedding = embedding_function.embed_query([query_text])  # Pass query_text as a list
+
+    # Perform the similarity search
+    results: List[Tuple[Document, float]] = db.similarity_search_by_vector(query_embedding, n_results=5)
+
     logging.info(f"Performing similarity search for query: {query_text}")
-    results: List[Tuple[Document, float]] = db.similarity_search_by_vector_with_relevance_scores(query_text, k=3)
 
     if len(results) == 0 or results[0][1] < 0.7:
         logging.info(f"No matching results found for query: {query_text}")
