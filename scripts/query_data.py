@@ -32,6 +32,7 @@ def query_vector_db(query_text: str) -> str:
     Returns:
     - Tuple[int, str]: A tuple indicating success (1) or failure (0) and a formatted response.
     """
+
     logging.info(f"Querying vector database with query: {query_text}")
 
     chroma_path: str = "data/chroma"
@@ -51,7 +52,7 @@ def query_vector_db(query_text: str) -> str:
     db = Chroma(persist_directory=chroma_path, embedding_function=embedding_function)
 
     # Embed the query (ensure query_embedding is a list of lists)
-    query_embedding = embedding_function.embed_query(query_text)
+    query_embedding = embedding_function.embed_query(str(query_text))
 
     logging.info(f"Query embedding: {query_embedding}")
 
