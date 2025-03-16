@@ -8,9 +8,9 @@ PyPDF2
 sentence-transformers
 streamlit-authenticator
 pyyaml
-langchain
+langchain==0.0.276
 langchain_community
 langchain_openai
 pypdf
-chromadb==0.3.23
+chromadb==0.4.8
 pysqlite3-binary>=0.4.6

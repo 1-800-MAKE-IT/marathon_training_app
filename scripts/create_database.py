@@ -15,7 +15,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain.vectorstores import Chroma
 
 logging.basicConfig(
     level=logging.INFO,
@@ -40,7 +40,7 @@ def load_documents(data_path: str = "data/PDFs/") -> List[Document]:
     logging.info("Attempting to load documents using PyPDFLoader...")
     
     documents: List[Document] = []
-    
+
     for filename in os.listdir(data_path):
 
         if filename.lower().endswith(".pdf"):
@@ -104,11 +104,11 @@ def save_to_chroma(chunks: List[Document]) -> int:
     openai_embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
     db = Chroma.from_documents(
-        chunks, openai_embeddings, persist_directory=chroma_path
+    documents=chunks,
+    embedding=openai_embeddings,
+    persist_directory=chroma_path,
+    collection_name="document_chunks"
     )
-
-    # Save database
-    db.persist()
 
     logging.info(f"Saved {len(chunks)} chunks to {chroma_path}.")
 
