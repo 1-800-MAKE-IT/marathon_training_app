@@ -115,6 +115,5 @@ def generate_data_store():
     except Exception as e:
         return f"Error creating database: {e}. Please try again."
     
-print(generate_data_store())
     
 
