@@ -52,7 +52,7 @@ def query_vector_db(query_text: str) -> str:
     db = Chroma(persist_directory=chroma_path, embedding_function=embedding_function)
 
     # Embed the query (ensure query_embedding is a list of lists)
-    query_embedding = embedding_function.embed_query(str(query_text))
+    query_embedding = embedding_function.embed_query(query_text)
 
     logging.info(f"Query embedding: {query_embedding}")
 

@@ -100,7 +100,7 @@ if st.session_state["authentication_status"]:
 
         else:
             # Call model and get response
-            error_code, bot_response = query_vector_db(query)  
+            bot_response = query_vector_db(query)  
 
             # Append bot response to chat history
             st.session_state["messages"].append({"role": "assistant", "content": bot_response})
