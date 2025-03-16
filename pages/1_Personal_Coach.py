@@ -88,7 +88,7 @@ if st.session_state["authentication_status"]:
         st.session_state["messages"].append({"role": "user", "content": query})
 
         if response != "Complete":
-            st.error(f"Error: str(response)")
+            st.error(f"Error: {str(response)}")
 
         else:
             # Call model and get response
