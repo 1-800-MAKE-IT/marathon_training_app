@@ -88,7 +88,7 @@ if st.session_state["authentication_status"]:
         st.session_state["messages"].append({"role": "user", "content": query})
 
         if response != "Complete":
-            st.error("Error: Unable to fetch data. Please try again.")
+            st.error(str(response))
         else:
             # Call model and get response
             error_code, bot_response = query_vector_db(query)  
