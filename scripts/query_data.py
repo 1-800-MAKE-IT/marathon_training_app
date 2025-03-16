@@ -53,6 +53,9 @@ def query_vector_db(query_text: str) -> str:
     # Embed the query (ensure query_embedding is a list of lists)
     query_embedding = embedding_function.embed_query([query_text])
     query_embedding = [query_embedding]  # Make sure it's a list of lists
+
+    logging.info(f"Query embedding: {query_embedding}")
+
     
     # Perform the similarity search
     results: List[Tuple[Document, float]] = db.similarity_search_by_vector(query_embedding, n_results=5)
