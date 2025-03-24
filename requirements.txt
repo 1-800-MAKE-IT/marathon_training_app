@@ -8,9 +8,9 @@ PyPDF2
 sentence-transformers
 streamlit-authenticator
 pyyaml
-langchain==0.1.0  # Updated to the latest stable version
-langchain_community==0.0.14  # Pinned to a specific version
-langchain_openai
+langchain==0.1.0
+langchain_community==0.0.14
+langchain_openai==0.1.0   # Pin this to a stable version if available
 pypdf
-chromadb==0.4.15  # Updated to the latest stable version
+chromadb==0.4.15
 pysqlite3-binary>=0.4.6
