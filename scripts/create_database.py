@@ -16,6 +16,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
+from chromadb.config import Settings
+
 
 logging.basicConfig(
     level=logging.INFO,
@@ -103,11 +105,14 @@ def save_to_chroma(chunks: List[Document]) -> int:
     # Initialize OpenAI embeddings
     openai_embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
+    client_settings = Settings(persist_directory=chroma_path, tenant_id="default_tenant")
+
     db = Chroma.from_documents(
-    documents=chunks,
-    embedding=openai_embeddings,
-    persist_directory=chroma_path,
-    collection_name="document_chunks"
+        documents=chunks,
+        embedding=openai_embeddings,
+        persist_directory=chroma_path,
+        collection_name="document_chunks",
+        client_settings=client_settings
     )
 
     logging.info(f"Saved {len(chunks)} chunks to {chroma_path}.")
