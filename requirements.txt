@@ -1,30 +1,24 @@
-# Streamlit & UI
 streamlit==1.24.0
 streamlit-authenticator==0.2.3
 
-# Data handling
-pandas>=2.0.0,<3.0.0
+pandas==2.0.0
 pyyaml==6.0
-python-dotenv>=0.20.0,<1.0.0
+python-dotenv==1.0.0
 
-# PDF / documents
+arxiv==1.4.0
 PyPDF2==3.0.0
 pypdf==3.15.0
 sentence-transformers==2.2.2
-arxiv==1.4.0
 
-# OpenAI & embeddings
 openai==0.27.0
 tiktoken==0.4.0
 
-# Vector store
-chromadb==0.3.24
+chromadb==0.4.15
 faiss-cpu==1.7.2
 
-# SQLite shim
-pysqlite3==0.4.6
+pysqlite3-binary==0.4.6
 
-# LangChain + community + shared smith
 langchain==0.1.0
-langchain-community==0.0.14
+langchain_community==0.0.14
+langchain_openai==0.1.0
 langsmith==0.0.91
